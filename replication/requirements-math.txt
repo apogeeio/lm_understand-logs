@@ -1,0 +1,23 @@
+vllm==0.33.0
+torch==2.14.0
+transformers==5.20.2
+math-verify==0.9.0
+fla-core==0.6.0
+flash-linear-attention==0.6.0
+einops
+scipy==1.18.1
+scikit-learn==1.9.1
+pandas==3.1.0
+sympy
+networkx
+nvidia-cuda-nvcc==13.0.88
+nvidia-nvvm==13.0.88
+nvidia-cuda-crt==13.0.88
+nvidia-cuda-cccl==13.0.85
+
+# Official non-math checkers / private held-out preparation
+absl-py==2.5.1
+langdetect==1.0.9
+nltk==3.9.2
+immutabledict==4.3.1
+pyarrow==26.0.1

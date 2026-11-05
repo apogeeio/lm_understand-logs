@@ -1,0 +1,13 @@
+.venv*/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+.secrets/
+local_repro/
+replication/runs/
+replication/artifacts/
+replication/vendor/
+replication/python-deps/
+replication/configs/local.json
+replication/*.log

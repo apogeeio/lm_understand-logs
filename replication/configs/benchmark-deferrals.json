@@ -1,0 +1,12 @@
+{
+  "gpqa": {
+    "status": "deferred",
+    "reason": "Dataset access unavailable for this release.",
+    "requested_samples_per_problem": 4
+  },
+  "math500": {
+    "status": "deferred",
+    "reason": "Full evaluation not included in this release.",
+    "requested_samples_per_problem": 4
+  }
+}

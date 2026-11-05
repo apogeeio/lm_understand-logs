@@ -1,0 +1,724 @@
+{
+  "expected_attempts": 120,
+  "scored": 114,
+  "model_failures": 6,
+  "records": [
+    {
+      "job": "e5-astra-breakout-w32-r0",
+      "sha256": "dd3ca7972106462a70d77c8b09888d9281cff54d0cb04e25b610b94eef85763d",
+      "mean": 319.646,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w32-r1",
+      "sha256": "55d90d0f10f9cce97b3228df31ed939407c21dc6c38adc1bf560fe72d487f4e9",
+      "mean": 456.033,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w32-r2",
+      "sha256": "e40ab567af7788488cade13f814c23b608935ed449b6ceefbc8d27cc8abf7ff3",
+      "mean": 324.619,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w16-r0",
+      "sha256": "6b37cf95039fc01bf9728098a863ece20861a61e89bdd4ec55fc29a4855b3891",
+      "mean": 449.692,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w16-r1",
+      "sha256": "2b07eaf9c279d03ddf66050767e2cde5e28f1f44375dc315edf57432dbae734a",
+      "mean": 487.044,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w16-r2",
+      "sha256": "4e3824ad8a0ba2c1d89a94734df016fd195b3864d457e14991fbd1d722e62833",
+      "mean": 534.298,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w8-r0",
+      "sha256": "63b4680bd6f862270ea462e41df56a1fb46137f29d96f55ec362da9c90693473",
+      "mean": 307.328,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w8-r1",
+      "sha256": "a869232f8b945351d6d5e1ff1a6a31871b53ca7b6df21a9d08576ac02292bae4",
+      "mean": 503.193,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w8-r2",
+      "sha256": "00511ec4f382c4c517cb5469277599a7579643c883d25184b3a3c104be519ba9",
+      "mean": 460.181,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w4-r0",
+      "sha256": "ac3c49b7dbbc7c8b411d3a8dbf21661916e974da7a4e092c48b8cc66389c57c2",
+      "mean": 395.584,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w4-r1",
+      "sha256": "15b7479fcd5a81e486d4dc1520d87f40e0d5084a6c97e5a35cfa5a518e2e6d2b",
+      "mean": 493.84,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-w4-r2",
+      "sha256": "cd01e0c142c54c3285aac39cce7aa7ca0063969093fd4574750c0595caccfbf5",
+      "mean": 474.443,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-python-r0",
+      "sha256": "837e9d56469bed7efb80b8bc16077035957b6d6ad6b675b2d982caeda8ac696a",
+      "mean": 606.756,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-python-r1",
+      "sha256": "b3a52db43a04f7f580441aef7d356a0f64ed076e24ad2daba0d85002767d4040",
+      "mean": 539.304,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-breakout-python-r2",
+      "sha256": "583afbf2307c0a314850e34cd43eb63d6d9b0b50359919e6bf367ed52720b522",
+      "mean": 680.973,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w32-r0",
+      "sha256": "698ce499b86cf60d396e5fdc29b8a4d689ccff59ae544ca78228d0116d37ef15",
+      "mean": 11.404,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w32-r1",
+      "sha256": "8e8d5c428ef09ef7ebf95c73aa86ecec41cc4d58fd4d348fc504eb514dd23783",
+      "mean": 15.889,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w32-r2",
+      "sha256": "2485caefd41ccef0d4c28afe00c70d099ba3045e70def4660642cda405d21ca6",
+      "mean": 23.119,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w16-r0",
+      "sha256": "bcf5f865e4f977b8e53bbe3dc62b17aa0ce7d3b5049c46b9f7450e47b5c1d73a",
+      "mean": 13.593,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w16-r1",
+      "sha256": "98cb6c973f697e7e057c2585135d4e79f8a18bf67282e6c03fff6c0d603cc5d3",
+      "mean": 3.787,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w16-r2",
+      "sha256": "0329d2a5c280c82c2b22da6740d9cbe61eaa3220c6182f4d605c7e8a6583b64b",
+      "mean": 3.881,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w8-r0",
+      "sha256": "ffed27d6a84b4f3b7ef3c7397098848629a7b49ac1bbc6f8c66640ee99422a84",
+      "mean": 20.876,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w8-r1",
+      "sha256": "ed3d10cec2b1ee9cc0909b10ee5d2efd2c0e66717f049f45891a849fa9b60c80",
+      "mean": 12.482,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w8-r2",
+      "sha256": "1ab7e9bce85df04b3a836585e7088c06c31ab3f4d00867fa3d9f4c4a09c20747",
+      "mean": 6.419,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w4-r0",
+      "sha256": "0e701e003a3075e2eed06d90d7c5564e55ec9155feb96933053f3336890ed0cd",
+      "mean": 0.093,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w4-r1",
+      "sha256": "b8e62346b0acff6388a863c950be6b961f9109de8aac1afa97eb5ceccf6db109",
+      "mean": 10.52,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-w4-r2",
+      "sha256": "10fd98accbb34a78639ab6516a6533ca7a2cf9afbf5ad3c62e887560a3fdc212",
+      "mean": 30.013,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-python-r0",
+      "sha256": "c742949663f1a6be333d0e3a09f4a964b4f006dcefb349dc0f486aa377c61578",
+      "mean": 59.533,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-python-r1",
+      "sha256": "5bad20fe4c7764e04d1dba0ffc05ff7cd9eb75606a0922751d2d9d253baf3be4",
+      "mean": 121.991,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-seaquest-python-r2",
+      "sha256": "d29fbb5ecd65bed4987347eae54de26fa8b2be75251c16b35189b19d4a956d9f",
+      "mean": 115.721,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w32-r0",
+      "sha256": "69665b2864add2d5464157519ea82b36f1761152c1ce1509c870adf8d42bb8e4",
+      "mean": 66.317,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w32-r1",
+      "sha256": "cb972639dc974c2654eb29042356f5ff31a27a4a2109ae4689e6c095b4784513",
+      "mean": 71.196,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w32-r2",
+      "sha256": "4b8a7629ee7d7c65b66a6f899908c84f1ade232eb93164f136f9c55ffab54ca0",
+      "mean": 41.007,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w16-r0",
+      "sha256": "8c8b9108624d2e01ce861100ac96f9a307917b67e9a6c105da9e6cf0734a0124",
+      "mean": 21.409,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w16-r1",
+      "sha256": "62ca2a5d90cfecf66458a500c58ba40cdef81920553192b76c5164fa53a77e8a",
+      "mean": 35.135,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w16-r2",
+      "sha256": "6ce5cc317e01401e799dc04e3e9400bdfbc27a1dd87671e0dfbac06adb3824ad",
+      "mean": 18.695,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w8-r0",
+      "sha256": "709d32f2309c37d7e16101235ada5a1406be2e82b8611fd3dd07580ce238fa7f",
+      "mean": 32.274,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w8-r1",
+      "sha256": "6fb6087306b638fc039df02436a7dce8ac20fdf233267c24e653d0142192a7f1",
+      "mean": 16.699,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w8-r2",
+      "sha256": "0f1f67504e001eeba3267df313bef4f5d842b356c13308fe5915b3af2814161a",
+      "mean": 25.091,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w4-r0",
+      "sha256": "26ac3d5a1cb43d4209bcb9893b0cc3bf4207d3057350d1701fe5d61dd200bb8c",
+      "mean": 25.744,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w4-r1",
+      "sha256": "6897643b560640271e8b0b9b530729f8663ab0b33812dee70647ae1d61054764",
+      "mean": 26.183,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-w4-r2",
+      "sha256": "34656f41d2dbdabbdb07807f9a02f27a1b854a5a54d72c308eac4ed7466724b2",
+      "mean": 23.003,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-python-r0",
+      "sha256": "f2ad49ad219f68e4549169bf97eed492bf94f6c1c1ac5be52e2a5e79570658be",
+      "mean": 299.709,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-python-r1",
+      "sha256": "75d37b87a178cb40a6208923d64a1e933b37914c52f05347c751b29a290416f6",
+      "mean": 113.192,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-asterix-python-r2",
+      "sha256": "3a7365b07e4891f664a02f355a502c9b6ce2edeb252ffd824b6e5790dd203b0b",
+      "mean": 131.529,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w32-r0",
+      "sha256": "57e6f6b09a664eece4f6748240d7266b50792f4285c48a8bf2604d2f3a8eb456",
+      "mean": 10.703,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w32-r1",
+      "sha256": "0b1ae2188fc283585caced2ce4eae709f7209fa3e84174c5df8111a6d77fbf7d",
+      "mean": 9.699,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w32-r2",
+      "sha256": "d687a8d516aafb13fdf01fd9fa4141fe241234a0edf65f15d5ec82ba3bb6543a",
+      "mean": 7.572,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w16-r0",
+      "sha256": "d3a31cac872034f33326d47891b07c436d88926a8a6e24a46e6f9fb85a953b0b",
+      "mean": 6.402,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w16-r1",
+      "sha256": "b184c98c7a2b9c18310ade33a2c906529bcf35810da0006af13fd2ea20238496",
+      "mean": 7.878,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w16-r2",
+      "sha256": "9e56143e83d2b304fcda399bc46de14f5f9c875a042c6041c2c7d0539f10415e",
+      "mean": 9.751,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w8-r0",
+      "sha256": "c262a10911418c89b89bffa5a6de04dbfce48950ef807ed3ea805dcb66e430a5",
+      "mean": 9.972,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w8-r1",
+      "sha256": "8c147568df6be2ad338b38ac628d46f7d0965e94843bc32d28161461398b7230",
+      "mean": 8.477,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w8-r2",
+      "sha256": "ba13bc95a895437652b6cf3ba4295879be96267a212c43c9e338fa2f68478b8f",
+      "mean": 11.098,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w4-r0",
+      "sha256": "f74fba4b57eb99a1c211aab085717f804260acf210c0d04db70fc67e2c1a28ab",
+      "mean": 8.585,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w4-r1",
+      "sha256": "c6d0585bfbad1f3f9266cf5b1ff4b41e53d3bd1561eaec067683d4ed0d93df6f",
+      "mean": 11.285,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-w4-r2",
+      "sha256": "1f995a50edc54937484fbafaad929c15089694209da5ea9e21f4153f8d8bcef7",
+      "mean": 11.628,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-python-r0",
+      "sha256": "d02bf519f62e7db8c1fe56f8c705be7ef6318d7f162e445a4c1f7052b40814f9",
+      "mean": 15.417,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-python-r1",
+      "sha256": "3ee06077957b3232c65bc48bcf0e52865d343d3b4f55c69cd5d4830b595b0495",
+      "mean": 15.838,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-astra-snake-python-r2",
+      "sha256": "16faf0abd752643cb25152c9c55579010c3ecf5131b294f5d40fb18032d168fa",
+      "mean": 15.649,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w32-r0",
+      "sha256": "e5c2c0fcc554ecb66eb787a9aed809a39591391ffd36b9300785152408ed9825",
+      "mean": 9.676,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w32-r1",
+      "sha256": "2affd9784da97ad05729e37a9f27e76108cb773d177ff67e2d83c84d9080f221",
+      "mean": 9.697,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w32-r2",
+      "sha256": "00f68d1ee8fb3fb4072ce0d0ee847856ea28d72645d8fa90e994d59967cc8345",
+      "mean": 60.805,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w16-r0",
+      "sha256": "a90da8ae24bbfaa8735722e36eeba96406d4ed447950b7c05de66d5b3fea7286",
+      "mean": 43.668,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w16-r1",
+      "sha256": "84b21ead7e87bbd905154e10b33edfd5c4ce9c6aa69449c2a8321bf92968a59b",
+      "mean": 8.361,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w16-r2",
+      "sha256": "b9715b427edbc5b9af17edd1c471f6a60f66866ed72a27eb9d9651172fd48ab8",
+      "mean": 95.075,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w8-r0",
+      "sha256": "b12749bf3d86881ff3f7f0abaebd5811cebc9f4dc1327102e2b95cf506962417",
+      "mean": 8.935,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w8-r1",
+      "sha256": "dbbd32cbc15bb7b71d7af980a39125821de0e50fed5f8c4b1c221d154fad6b3c",
+      "mean": 76.81,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w8-r2",
+      "sha256": "3ddd8c290e20b1c2f4aafc5fede4d1dba5164d49805299e4b4e9a99abc5713be",
+      "mean": 39.527,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w4-r0",
+      "sha256": "0ceca365fb8a22d9891867cf7360b1eb96bf2a85588e94f344bee1ccd2d5045e",
+      "mean": 110.933,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w4-r1",
+      "sha256": "6a77881e0d617942bb09eb17d509c6e875d8c1fbeeba2a90a2709cbcd46c2d69",
+      "mean": 11.231,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-w4-r2",
+      "sha256": "32550a88990617b8e0184a5df6c2ac6ff4909dc1fc579d15701f45f23bffcbac",
+      "mean": 5.762,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-python-r0",
+      "sha256": "ee43f98652ff77e8498dd47e0c0d0548a16f11623ea42bf086770a0cd30102d0",
+      "mean": 188.975,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-python-r1",
+      "sha256": "51960b1853554ba6a04b15b9d00926af9af7829c6e28ba22050ba02c7ff65cec",
+      "mean": 13.95,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-breakout-python-r2",
+      "sha256": "c9026b2ae234bf544357ee70ecb2128717702b57ce8181db74a207088ad49193",
+      "mean": 232.793,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w32-r0",
+      "sha256": "0733c39275e020a4f593aa6d6dae18a1d6a8218da3c29e8aff2e87917d6951e5",
+      "mean": 0.468,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w32-r1",
+      "sha256": "9f20011220efa216b8a08d66387da49f4e2463428dbda17a8002f2c025e058ea",
+      "mean": 0.322,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w32-r2",
+      "sha256": "54fd34b4c4fd55814c897933012c3d4b8c089aff86cf32ed0571e0918657b28c",
+      "mean": 0.573,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w16-r0",
+      "sha256": "6f19260205aa0b782986b9e013fa6b63d4366e0d9f7cc343c1228247a52ac873",
+      "mean": 0.067,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w16-r1",
+      "sha256": "c17c931655e134ef0ea22d0f5bfa0187c5e66c41ebbda994c94fdb27716cf705",
+      "mean": 0.005,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w16-r2",
+      "sha256": "e1b7224cfcb46a326f23a0be510005a5e2ed98ed5964e014ab096afed8ea4958",
+      "mean": 0.001,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w8-r0",
+      "sha256": "ed833a7e50f88c964042944417a70b8a6abe87a14e55b7e22e63a48aa54e7bde",
+      "mean": 0.217,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w8-r1",
+      "sha256": "7f956707177a88408243f9c160cc61199db477a17f0b2e175cdd6d62b60ff0e7",
+      "mean": 0.134,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w8-r2",
+      "sha256": "d696eebcc0d4cc603091e338ee9549e9f515c59f0ee2c3af5862ad54764afcf2",
+      "mean": 0.562,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w4-r0",
+      "sha256": "2de4b93bae0ac6d7c98ba552ac839fec276632b01258d98a5576b7c8bd091887",
+      "mean": 0.295,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-w4-r2",
+      "sha256": "486451568982f3af5c1854efedff5c3a5af9e1a16515e7f48363d3ff5ddc886b",
+      "mean": 0.043,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-python-r0",
+      "sha256": "5ea58930280adb1de5a40751e0d870da02fc1ae452f09056dcbee70a57aa819d",
+      "mean": 10.062,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-python-r1",
+      "sha256": "2c788615b4698fbf081d727f3e955061f7ede06a7fb56988644e28e695a57eef",
+      "mean": 10.614,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-seaquest-python-r2",
+      "sha256": "44035784e08a35c382db2274d8fbf91925ac68af2d756058ea0eca2eff0f3fa5",
+      "mean": 13.313,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w32-r0",
+      "sha256": "2ef43038c4ed2fe6b516964148d0d48f33e9a117ba2ba110fb0d5751ee17168e",
+      "mean": 3.579,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w32-r1",
+      "sha256": "78e2550653b69593e71800ead17f7e59b49c9f1a506e2963c3f8511ebeaa907b",
+      "mean": 8.56,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w32-r2",
+      "sha256": "d5996e6af798ffc4ef76378ef887d93507ff7f7d7c852ccf7dc74b50556974d2",
+      "mean": 0.44,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w16-r0",
+      "sha256": "f0a4cd1324ba53664dbbc14440d1d0e9db2b02b4aaad4eb7529946c415cdb558",
+      "mean": 3.402,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w16-r1",
+      "sha256": "92c42370e313c0c34f9c7fc0c3d16bc00946aa6672bef4c1bf5456d128f83c77",
+      "mean": 1.723,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w16-r2",
+      "sha256": "ccabe88740d4bbe0c178108ddfc25eca4660aeafefc9cd4d609879ab58cfb045",
+      "mean": 3.231,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w8-r0",
+      "sha256": "20c9ce8d785c929675edb3e69f5467e656f35e6c8705c2ccfea22c76f0840882",
+      "mean": 0.999,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w8-r2",
+      "sha256": "37ae4edc2ee04ea1cbfd84077b7cc036dcd480ef1365dc9e51c8a6fdc3a9930d",
+      "mean": 3.055,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w4-r0",
+      "sha256": "e4aeb029e898a59c73c22755ccaf7f2d3fe07f633f5f0a0b17610914e4444899",
+      "mean": 1.017,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w4-r1",
+      "sha256": "ce2c4209ac34cb563666eda4f884cd820b314e6e71fd4dafac33513353c1dad6",
+      "mean": 0.664,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-w4-r2",
+      "sha256": "c1d6aa1b80c5d31adc29c318b6eaf6809cd79b9162df64abb9791827b0cd92ab",
+      "mean": 0.944,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-python-r0",
+      "sha256": "9048d0edc1be7fdcba1a1b123318bbeab2db20222a1833aae3ccb875c85b7cc5",
+      "mean": 12.485,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-python-r1",
+      "sha256": "23305f6f1b3066f28ceca3b7da76327aace8d4fe3cf6c76411d6526fcb1cbecd",
+      "mean": 30.004,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-asterix-python-r2",
+      "sha256": "1585e95a1e3a4ff253a6c22ceb51b584d9a7cda24881f0c2a29436d1ac26cbfa",
+      "mean": 40.583,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w32-r0",
+      "sha256": "16385760aecb77e64fd1155f1880bb32bd5c1f98c736afe93e3249bfef30bf37",
+      "mean": 2.084,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w32-r1",
+      "sha256": "75d128b9c5173528d0256afcf12259f689cf4dcdd4a0452e28b5293cb63571b5",
+      "mean": 3.501,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w32-r2",
+      "sha256": "1a2348f75b840694891b78dd927f39f8d7b163f713e95277536d7f47af0536fd",
+      "mean": 3.656,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w16-r0",
+      "sha256": "82390263c6452d8d1d04e3f19c7c908d5d077c3493d76ae0f98e7c7190e629a5",
+      "mean": 6.093,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w8-r0",
+      "sha256": "297580b88072b77067bb442a2953232f9350dceb3359218569d03122fa5ee10f",
+      "mean": 0.087,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w8-r1",
+      "sha256": "9c268adbab63d02effafb8a5b4a770bafea32926d1a1773e5f7910e76069daec",
+      "mean": 1.703,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w8-r2",
+      "sha256": "b3a1c902b52e26082c19e81b1667468062224208f98ae5c55c0406ff2d8f3565",
+      "mean": 4.629,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-w4-r1",
+      "sha256": "304bd583bf9e05a7f5a045987a9707c63a0b39b1e98bc4dd9eca9666ef60fe02",
+      "mean": 2.084,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-python-r0",
+      "sha256": "527c57b2d682d93559b90382150bf72df6b49b692049f499848d535451fca4c6",
+      "mean": 13.901,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-python-r1",
+      "sha256": "4921b67aa4f1cc7323e39af19feef7559b087346ca6a4fea82e1b20823eb316c",
+      "mean": 12.847,
+      "episodes": 1000
+    },
+    {
+      "job": "e5-deepseek-snake-python-r2",
+      "sha256": "a06fe098824f435099e016c3771126fba8061710900a453140220987fd6bce51",
+      "mean": 14.717,
+      "episodes": 1000
+    }
+  ],
+  "failures": [
+    {
+      "job": "e5-deepseek-seaquest-w4-r1",
+      "error_type": "RuntimeError",
+      "message": "DeepSeek response ended: length"
+    },
+    {
+      "job": "e5-deepseek-asterix-w8-r1",
+      "error_type": "IncompleteModelOutput",
+      "message": "DeepSeek response ended: length"
+    },
+    {
+      "job": "e5-deepseek-snake-w16-r1",
+      "error_type": "IncompleteModelOutput",
+      "message": "DeepSeek response ended: length"
+    },
+    {
+      "job": "e5-deepseek-snake-w16-r2",
+      "error_type": "IncompleteModelOutput",
+      "message": "DeepSeek response ended: length"
+    },
+    {
+      "job": "e5-deepseek-snake-w4-r0",
+      "error_type": "IncompleteModelOutput",
+      "message": "DeepSeek response ended: length"
+    },
+    {
+      "job": "e5-deepseek-snake-w4-r2",
+      "error_type": "IncompleteModelOutput",
+      "message": "DeepSeek response ended: length"
+    }
+  ],
+  "checks": "all frozen hashes;1000seeds;means/episodevariance;maxsteps;sticky config;returnedmodel;code line caps"
+}

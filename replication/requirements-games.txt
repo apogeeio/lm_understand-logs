@@ -1,0 +1,3 @@
+numpy==2.5.4
+minatar==1.0.15
+pytest==9.2.0

@@ -1,0 +1,8 @@
+# The vendored checkout is ignored by Git; fetch this exact official commit first:
+# git clone https://github.com/FLAIROx/Kinetix.git replication/vendor/Kinetix
+# git -C replication/vendor/Kinetix checkout 80ee9c292837c825cafaf9889323fdcc212efd1b
+./replication/vendor/Kinetix
+jax==0.9.0
+jaxlib==0.9.0
+jax2d==1.0.1
+flax==0.12.6

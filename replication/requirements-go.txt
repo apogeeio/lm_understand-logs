@@ -1,0 +1,5 @@
+# Separate CPU environment; do not upgrade the pinned Kinetix environment.
+pgx==2.6.0
+jax==0.12.0.1
+jaxlib==0.12.0.1
+numpy==2.5.4

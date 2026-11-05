@@ -1,0 +1,2514 @@
+[
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "asterix",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 25.079666666666665,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 77.67374533333331,
+    "run_sample_std": 8.813270978095098,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w16-r0",
+        "status": "scored",
+        "mean": 21.409,
+        "episode_variance": 157.74546446446445
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w16-r1",
+        "status": "scored",
+        "mean": 35.135,
+        "episode_variance": 336.6033783783784
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w16-r2",
+        "status": "scored",
+        "mean": 18.695,
+        "episode_variance": 471.05302802802805
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w16-r0",
+        "status": "scored",
+        "mean": 21.409,
+        "episode_variance": 157.74546446446445
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w16-r1",
+        "status": "scored",
+        "mean": 35.135,
+        "episode_variance": 336.6033783783784
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w16-r2",
+        "status": "scored",
+        "mean": 18.695,
+        "episode_variance": 471.05302802802805
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "asterix",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 59.50666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 262.6294103333333,
+    "run_sample_std": 16.205844943517548,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w32-r0",
+        "status": "scored",
+        "mean": 66.317,
+        "episode_variance": 1337.3058168168168
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w32-r1",
+        "status": "scored",
+        "mean": 71.196,
+        "episode_variance": 1246.36594994995
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w32-r2",
+        "status": "scored",
+        "mean": 41.007,
+        "episode_variance": 360.5114624624625
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w32-r0",
+        "status": "scored",
+        "mean": 66.317,
+        "episode_variance": 1337.3058168168168
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w32-r1",
+        "status": "scored",
+        "mean": 71.196,
+        "episode_variance": 1246.36594994995
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w32-r2",
+        "status": "scored",
+        "mean": 41.007,
+        "episode_variance": 360.5114624624625
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "asterix",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 24.976666666666667,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 2.969700333333333,
+    "run_sample_std": 1.7232818496500601,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w4-r0",
+        "status": "scored",
+        "mean": 25.744,
+        "episode_variance": 253.72018418418415
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w4-r1",
+        "status": "scored",
+        "mean": 26.183,
+        "episode_variance": 248.87038138138138
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w4-r2",
+        "status": "scored",
+        "mean": 23.003,
+        "episode_variance": 252.74373473473472
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w4-r0",
+        "status": "scored",
+        "mean": 25.744,
+        "episode_variance": 253.72018418418415
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w4-r1",
+        "status": "scored",
+        "mean": 26.183,
+        "episode_variance": 248.87038138138138
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w4-r2",
+        "status": "scored",
+        "mean": 23.003,
+        "episode_variance": 252.74373473473472
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "asterix",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 24.688000000000002,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 60.766963,
+    "run_sample_std": 7.795316735065997,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w8-r0",
+        "status": "scored",
+        "mean": 32.274,
+        "episode_variance": 312.4433673673674
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w8-r1",
+        "status": "scored",
+        "mean": 16.699,
+        "episode_variance": 164.56095995995997
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w8-r2",
+        "status": "scored",
+        "mean": 25.091,
+        "episode_variance": 382.202921921922
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-w8-r0",
+        "status": "scored",
+        "mean": 32.274,
+        "episode_variance": 312.4433673673674
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-w8-r1",
+        "status": "scored",
+        "mean": 16.699,
+        "episode_variance": 164.56095995995997
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-w8-r2",
+        "status": "scored",
+        "mean": 25.091,
+        "episode_variance": 382.202921921922
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "asterix",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 181.47666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 10568.224876333334,
+    "run_sample_std": 102.80187194955808,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-python-r0",
+        "status": "scored",
+        "mean": 299.709,
+        "episode_variance": 63119.361680680675
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-python-r1",
+        "status": "scored",
+        "mean": 113.192,
+        "episode_variance": 5465.558694694695
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-python-r2",
+        "status": "scored",
+        "mean": 131.529,
+        "episode_variance": 7682.711870870872
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-asterix-python-r0",
+        "status": "scored",
+        "mean": 299.709,
+        "episode_variance": 63119.361680680675
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-asterix-python-r1",
+        "status": "scored",
+        "mean": 113.192,
+        "episode_variance": 5465.558694694695
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-asterix-python-r2",
+        "status": "scored",
+        "mean": 131.529,
+        "episode_variance": 7682.711870870872
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "breakout",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 490.3446666666667,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 1797.714609333333,
+    "run_sample_std": 42.399464729325686,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w16-r0",
+        "status": "scored",
+        "mean": 449.692,
+        "episode_variance": 86787.87300900901
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w16-r1",
+        "status": "scored",
+        "mean": 487.044,
+        "episode_variance": 19524.61868268268
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w16-r2",
+        "status": "scored",
+        "mean": 534.298,
+        "episode_variance": 79437.34253853853
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w16-r0",
+        "status": "scored",
+        "mean": 449.692,
+        "episode_variance": 86787.87300900901
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w16-r1",
+        "status": "scored",
+        "mean": 487.044,
+        "episode_variance": 19524.61868268268
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w16-r2",
+        "status": "scored",
+        "mean": 534.298,
+        "episode_variance": 79437.34253853853
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "breakout",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 366.766,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 5982.630649,
+    "run_sample_std": 77.34746698502802,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w32-r0",
+        "status": "scored",
+        "mean": 319.646,
+        "episode_variance": 39624.29898298298
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w32-r1",
+        "status": "scored",
+        "mean": 456.033,
+        "episode_variance": 26875.373284284284
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w32-r2",
+        "status": "scored",
+        "mean": 324.619,
+        "episode_variance": 21688.13997897898
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w32-r0",
+        "status": "scored",
+        "mean": 319.646,
+        "episode_variance": 39624.29898298298
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w32-r1",
+        "status": "scored",
+        "mean": 456.033,
+        "episode_variance": 26875.373284284284
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w32-r2",
+        "status": "scored",
+        "mean": 324.619,
+        "episode_variance": 21688.13997897898
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "breakout",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 454.6223333333333,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 2708.204504333332,
+    "run_sample_std": 52.040412222938166,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w4-r0",
+        "status": "scored",
+        "mean": 395.584,
+        "episode_variance": 69834.52346746747
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w4-r1",
+        "status": "scored",
+        "mean": 493.84,
+        "episode_variance": 80910.63503503504
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w4-r2",
+        "status": "scored",
+        "mean": 474.443,
+        "episode_variance": 30813.4481991992
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w4-r0",
+        "status": "scored",
+        "mean": 395.584,
+        "episode_variance": 69834.52346746747
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w4-r1",
+        "status": "scored",
+        "mean": 493.84,
+        "episode_variance": 80910.63503503504
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w4-r2",
+        "status": "scored",
+        "mean": 474.443,
+        "episode_variance": 30813.4481991992
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "breakout",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 423.5673333333333,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 10596.194996333334,
+    "run_sample_std": 102.93782101994064,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w8-r0",
+        "status": "scored",
+        "mean": 307.328,
+        "episode_variance": 20323.507923923924
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w8-r1",
+        "status": "scored",
+        "mean": 503.193,
+        "episode_variance": 59943.32307407408
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w8-r2",
+        "status": "scored",
+        "mean": 460.181,
+        "episode_variance": 26489.305544544546
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-w8-r0",
+        "status": "scored",
+        "mean": 307.328,
+        "episode_variance": 20323.507923923924
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-w8-r1",
+        "status": "scored",
+        "mean": 503.193,
+        "episode_variance": 59943.32307407408
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-w8-r2",
+        "status": "scored",
+        "mean": 460.181,
+        "episode_variance": 26489.305544544546
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "breakout",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 609.011,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 5021.3401589999985,
+    "run_sample_std": 70.8614151636841,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-python-r0",
+        "status": "scored",
+        "mean": 606.756,
+        "episode_variance": 80228.36883283284
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-python-r1",
+        "status": "scored",
+        "mean": 539.304,
+        "episode_variance": 88492.97856256257
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-python-r2",
+        "status": "scored",
+        "mean": 680.973,
+        "episode_variance": 58535.9322032032
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-breakout-python-r0",
+        "status": "scored",
+        "mean": 606.756,
+        "episode_variance": 80228.36883283284
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-breakout-python-r1",
+        "status": "scored",
+        "mean": 539.304,
+        "episode_variance": 88492.97856256257
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-breakout-python-r2",
+        "status": "scored",
+        "mean": 680.973,
+        "episode_variance": 58535.9322032032
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 7.087,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 31.748236000000002,
+    "run_sample_std": 5.63455730292984,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w16-r0",
+        "status": "scored",
+        "mean": 13.593,
+        "episode_variance": 167.14449549549548
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w16-r1",
+        "status": "scored",
+        "mean": 3.787,
+        "episode_variance": 18.512143143143145
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w16-r2",
+        "status": "scored",
+        "mean": 3.881,
+        "episode_variance": 18.635474474474474
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w16-r0",
+        "status": "scored",
+        "mean": 13.593,
+        "episode_variance": 167.14449549549548
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w16-r1",
+        "status": "scored",
+        "mean": 3.787,
+        "episode_variance": 18.512143143143145
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w16-r2",
+        "status": "scored",
+        "mean": 3.881,
+        "episode_variance": 18.635474474474474
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 16.804,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 34.938225,
+    "run_sample_std": 5.910856536915779,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w32-r0",
+        "status": "scored",
+        "mean": 11.404,
+        "episode_variance": 145.27005405405407
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w32-r1",
+        "status": "scored",
+        "mean": 15.889,
+        "episode_variance": 385.313992992993
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w32-r2",
+        "status": "scored",
+        "mean": 23.119,
+        "episode_variance": 411.74258158158153
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w32-r0",
+        "status": "scored",
+        "mean": 11.404,
+        "episode_variance": 145.27005405405407
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w32-r1",
+        "status": "scored",
+        "mean": 15.889,
+        "episode_variance": 385.313992992993
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w32-r2",
+        "status": "scored",
+        "mean": 23.119,
+        "episode_variance": 411.74258158158153
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 13.542,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 230.65096300000002,
+    "run_sample_std": 15.18719733854802,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w4-r0",
+        "status": "scored",
+        "mean": 0.093,
+        "episode_variance": 0.1164674674674675
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w4-r1",
+        "status": "scored",
+        "mean": 10.52,
+        "episode_variance": 30.66426426426426
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w4-r2",
+        "status": "scored",
+        "mean": 30.013,
+        "episode_variance": 692.171002002002
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w4-r0",
+        "status": "scored",
+        "mean": 0.093,
+        "episode_variance": 0.1164674674674675
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w4-r1",
+        "status": "scored",
+        "mean": 10.52,
+        "episode_variance": 30.66426426426426
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w4-r2",
+        "status": "scored",
+        "mean": 30.013,
+        "episode_variance": 692.171002002002
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 13.259,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 52.70400900000001,
+    "run_sample_std": 7.259752681737857,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w8-r0",
+        "status": "scored",
+        "mean": 20.876,
+        "episode_variance": 351.6642882882883
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w8-r1",
+        "status": "scored",
+        "mean": 12.482,
+        "episode_variance": 157.81949549549546
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w8-r2",
+        "status": "scored",
+        "mean": 6.419,
+        "episode_variance": 54.507946946946944
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-w8-r0",
+        "status": "scored",
+        "mean": 20.876,
+        "episode_variance": 351.6642882882883
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-w8-r1",
+        "status": "scored",
+        "mean": 12.482,
+        "episode_variance": 157.81949549549546
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-w8-r2",
+        "status": "scored",
+        "mean": 6.419,
+        "episode_variance": 54.507946946946944
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "seaquest",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 99.08166666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 1182.9010013333334,
+    "run_sample_std": 34.39332786069608,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-python-r0",
+        "status": "scored",
+        "mean": 59.533,
+        "episode_variance": 1813.0259369369371
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-python-r1",
+        "status": "scored",
+        "mean": 121.991,
+        "episode_variance": 5228.445364364364
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-python-r2",
+        "status": "scored",
+        "mean": 115.721,
+        "episode_variance": 4854.707866866866
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-seaquest-python-r0",
+        "status": "scored",
+        "mean": 59.533,
+        "episode_variance": 1813.0259369369371
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-seaquest-python-r1",
+        "status": "scored",
+        "mean": 121.991,
+        "episode_variance": 5228.445364364364
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-seaquest-python-r2",
+        "status": "scored",
+        "mean": 115.721,
+        "episode_variance": 4854.707866866866
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "snake",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 8.010333333333334,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 2.817084333333332,
+    "run_sample_std": 1.6784172107474744,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w16-r0",
+        "status": "scored",
+        "mean": 6.402,
+        "episode_variance": 40.82722322322322
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w16-r1",
+        "status": "scored",
+        "mean": 7.878,
+        "episode_variance": 48.80592192192192
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w16-r2",
+        "status": "scored",
+        "mean": 9.751,
+        "episode_variance": 89.24624524524526
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w16-r0",
+        "status": "scored",
+        "mean": 6.402,
+        "episode_variance": 40.82722322322322
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w16-r1",
+        "status": "scored",
+        "mean": 7.878,
+        "episode_variance": 48.80592192192192
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w16-r2",
+        "status": "scored",
+        "mean": 9.751,
+        "episode_variance": 89.24624524524526
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "snake",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 9.324666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 2.5558843333333323,
+    "run_sample_std": 1.5987133368222497,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w32-r0",
+        "status": "scored",
+        "mean": 10.703,
+        "episode_variance": 41.29808908908909
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w32-r1",
+        "status": "scored",
+        "mean": 9.699,
+        "episode_variance": 30.060459459459462
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w32-r2",
+        "status": "scored",
+        "mean": 7.572,
+        "episode_variance": 50.44726326326327
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w32-r0",
+        "status": "scored",
+        "mean": 10.703,
+        "episode_variance": 41.29808908908909
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w32-r1",
+        "status": "scored",
+        "mean": 9.699,
+        "episode_variance": 30.060459459459462
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w32-r2",
+        "status": "scored",
+        "mean": 7.572,
+        "episode_variance": 50.44726326326327
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "snake",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 10.499333333333334,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 2.777916333333332,
+    "run_sample_std": 1.6667082328150096,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w4-r0",
+        "status": "scored",
+        "mean": 8.585,
+        "episode_variance": 25.00177677677678
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w4-r1",
+        "status": "scored",
+        "mean": 11.285,
+        "episode_variance": 65.05282782782783
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w4-r2",
+        "status": "scored",
+        "mean": 11.628,
+        "episode_variance": 66.72834434434434
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w4-r0",
+        "status": "scored",
+        "mean": 8.585,
+        "episode_variance": 25.00177677677678
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w4-r1",
+        "status": "scored",
+        "mean": 11.285,
+        "episode_variance": 65.05282782782783
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w4-r2",
+        "status": "scored",
+        "mean": 11.628,
+        "episode_variance": 66.72834434434434
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "snake",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 9.849,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 1.7287570000000005,
+    "run_sample_std": 1.314822041190366,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w8-r0",
+        "status": "scored",
+        "mean": 9.972,
+        "episode_variance": 61.696912912912914
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w8-r1",
+        "status": "scored",
+        "mean": 8.477,
+        "episode_variance": 24.295766766766764
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w8-r2",
+        "status": "scored",
+        "mean": 11.098,
+        "episode_variance": 40.899295295295296
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-w8-r0",
+        "status": "scored",
+        "mean": 9.972,
+        "episode_variance": 61.696912912912914
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-w8-r1",
+        "status": "scored",
+        "mean": 8.477,
+        "episode_variance": 24.295766766766764
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-w8-r2",
+        "status": "scored",
+        "mean": 11.098,
+        "episode_variance": 40.899295295295296
+      }
+    ]
+  },
+  {
+    "model": "astra",
+    "transport": "coding_plan_responses_bridge",
+    "game": "snake",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 15.634666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.044464333333333196,
+    "run_sample_std": 0.21086567604362072,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-python-r0",
+        "status": "scored",
+        "mean": 15.417,
+        "episode_variance": 112.03714814814813
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-python-r1",
+        "status": "scored",
+        "mean": 15.838,
+        "episode_variance": 127.91366966966966
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-python-r2",
+        "status": "scored",
+        "mean": 15.649,
+        "episode_variance": 118.37016916916917
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-astra-snake-python-r0",
+        "status": "scored",
+        "mean": 15.417,
+        "episode_variance": 112.03714814814813
+      },
+      {
+        "repeat": 1,
+        "job": "e5-astra-snake-python-r1",
+        "status": "scored",
+        "mean": 15.838,
+        "episode_variance": 127.91366966966966
+      },
+      {
+        "repeat": 2,
+        "job": "e5-astra-snake-python-r2",
+        "status": "scored",
+        "mean": 15.649,
+        "episode_variance": 118.37016916916917
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "asterix",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 2.7853333333333334,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.8537243333333333,
+    "run_sample_std": 0.9239720414240538,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w16-r0",
+        "status": "scored",
+        "mean": 3.402,
+        "episode_variance": 9.349745745745746
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w16-r1",
+        "status": "scored",
+        "mean": 1.723,
+        "episode_variance": 3.856127127127128
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w16-r2",
+        "status": "scored",
+        "mean": 3.231,
+        "episode_variance": 12.105744744744744
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w16-r0",
+        "status": "scored",
+        "mean": 3.402,
+        "episode_variance": 9.349745745745746
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w16-r1",
+        "status": "scored",
+        "mean": 1.723,
+        "episode_variance": 3.856127127127128
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w16-r2",
+        "status": "scored",
+        "mean": 3.231,
+        "episode_variance": 12.105744744744744
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "asterix",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 4.1930000000000005,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 16.766347000000003,
+    "run_sample_std": 4.094673002817197,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w32-r0",
+        "status": "scored",
+        "mean": 3.579,
+        "episode_variance": 15.245004004004006
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w32-r1",
+        "status": "scored",
+        "mean": 8.56,
+        "episode_variance": 66.56096096096095
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w32-r2",
+        "status": "scored",
+        "mean": 0.44,
+        "episode_variance": 0.6370370370370372
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w32-r0",
+        "status": "scored",
+        "mean": 3.579,
+        "episode_variance": 15.245004004004006
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w32-r1",
+        "status": "scored",
+        "mean": 8.56,
+        "episode_variance": 66.56096096096095
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w32-r2",
+        "status": "scored",
+        "mean": 0.44,
+        "episode_variance": 0.6370370370370372
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "asterix",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 0.875,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.034722999999999976,
+    "run_sample_std": 0.18634108511007436,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w4-r0",
+        "status": "scored",
+        "mean": 1.017,
+        "episode_variance": 2.132843843843844
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w4-r1",
+        "status": "scored",
+        "mean": 0.664,
+        "episode_variance": 0.960064064064064
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w4-r2",
+        "status": "scored",
+        "mean": 0.944,
+        "episode_variance": 1.6645285285285285
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w4-r0",
+        "status": "scored",
+        "mean": 1.017,
+        "episode_variance": 2.132843843843844
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w4-r1",
+        "status": "scored",
+        "mean": 0.664,
+        "episode_variance": 0.960064064064064
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w4-r2",
+        "status": "scored",
+        "mean": 0.944,
+        "episode_variance": 1.6645285285285285
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "asterix",
+    "kind": "network",
+    "width": 8,
+    "n": 2,
+    "expected_repeats": 3,
+    "complete": false,
+    "mean": 2.027,
+    "attempts_finished": true,
+    "model_failures": 1,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "available scored outputs only; incomplete valid repetition group",
+    "run_sample_variance": 2.1135680000000003,
+    "run_sample_std": 1.4538115421195419,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w8-r0",
+        "status": "scored",
+        "mean": 0.999,
+        "episode_variance": 1.8588578578578576
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w8-r2",
+        "status": "scored",
+        "mean": 3.055,
+        "episode_variance": 9.69366866866867
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-w8-r0",
+        "status": "scored",
+        "mean": 0.999,
+        "episode_variance": 1.8588578578578576
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-w8-r1",
+        "status": "model_failure",
+        "error_type": "IncompleteModelOutput"
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-w8-r2",
+        "status": "scored",
+        "mean": 3.055,
+        "episode_variance": 9.69366866866867
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "asterix",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 27.690666666666665,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 201.38803433333334,
+    "run_sample_std": 14.191125196168672,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-python-r0",
+        "status": "scored",
+        "mean": 12.485,
+        "episode_variance": 135.5473223223223
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-python-r1",
+        "status": "scored",
+        "mean": 30.004,
+        "episode_variance": 326.7367207207207
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-python-r2",
+        "status": "scored",
+        "mean": 40.583,
+        "episode_variance": 502.9260370370371
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-asterix-python-r0",
+        "status": "scored",
+        "mean": 12.485,
+        "episode_variance": 135.5473223223223
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-asterix-python-r1",
+        "status": "scored",
+        "mean": 30.004,
+        "episode_variance": 326.7367207207207
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-asterix-python-r2",
+        "status": "scored",
+        "mean": 40.583,
+        "episode_variance": 502.9260370370371
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "breakout",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 49.034666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 1901.4302823333335,
+    "run_sample_std": 43.605392812510395,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w16-r0",
+        "status": "scored",
+        "mean": 43.668,
+        "episode_variance": 2575.4211971971968
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w16-r1",
+        "status": "scored",
+        "mean": 8.361,
+        "episode_variance": 79.05973873873874
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w16-r2",
+        "status": "scored",
+        "mean": 95.075,
+        "episode_variance": 8127.789164164165
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w16-r0",
+        "status": "scored",
+        "mean": 43.668,
+        "episode_variance": 2575.4211971971968
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w16-r1",
+        "status": "scored",
+        "mean": 8.361,
+        "episode_variance": 79.05973873873874
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w16-r2",
+        "status": "scored",
+        "mean": 95.075,
+        "episode_variance": 8127.789164164165
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "breakout",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 26.726,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 871.033791,
+    "run_sample_std": 29.51328160337308,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w32-r0",
+        "status": "scored",
+        "mean": 9.676,
+        "episode_variance": 86.43545945945947
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w32-r1",
+        "status": "scored",
+        "mean": 9.697,
+        "episode_variance": 86.62581681681681
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w32-r2",
+        "status": "scored",
+        "mean": 60.805,
+        "episode_variance": 4283.904879879879
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w32-r0",
+        "status": "scored",
+        "mean": 9.676,
+        "episode_variance": 86.43545945945947
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w32-r1",
+        "status": "scored",
+        "mean": 9.697,
+        "episode_variance": 86.62581681681681
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w32-r2",
+        "status": "scored",
+        "mean": 60.805,
+        "episode_variance": 4283.904879879879
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "breakout",
+    "kind": "network",
+    "width": 4,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 42.642,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 3505.2230010000003,
+    "run_sample_std": 59.20492379017138,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w4-r0",
+        "status": "scored",
+        "mean": 110.933,
+        "episode_variance": 16029.704215215215
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w4-r1",
+        "status": "scored",
+        "mean": 11.231,
+        "episode_variance": 160.9465855855856
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w4-r2",
+        "status": "scored",
+        "mean": 5.762,
+        "episode_variance": 17.516872872872874
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w4-r0",
+        "status": "scored",
+        "mean": 110.933,
+        "episode_variance": 16029.704215215215
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w4-r1",
+        "status": "scored",
+        "mean": 11.231,
+        "episode_variance": 160.9465855855856
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w4-r2",
+        "status": "scored",
+        "mean": 5.762,
+        "episode_variance": 17.516872872872874
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "breakout",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 41.757333333333335,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 1155.4846963333334,
+    "run_sample_std": 33.992421160213546,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w8-r0",
+        "status": "scored",
+        "mean": 8.935,
+        "episode_variance": 107.26604104104103
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w8-r1",
+        "status": "scored",
+        "mean": 76.81,
+        "episode_variance": 6162.458358358358
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w8-r2",
+        "status": "scored",
+        "mean": 39.527,
+        "episode_variance": 1484.784055055055
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-w8-r0",
+        "status": "scored",
+        "mean": 8.935,
+        "episode_variance": 107.26604104104103
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-w8-r1",
+        "status": "scored",
+        "mean": 76.81,
+        "episode_variance": 6162.458358358358
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-w8-r2",
+        "status": "scored",
+        "mean": 39.527,
+        "episode_variance": 1484.784055055055
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "breakout",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 145.23933333333332,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 13407.671066333334,
+    "run_sample_std": 115.7914982472087,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-python-r0",
+        "status": "scored",
+        "mean": 188.975,
+        "episode_variance": 5393.469844844845
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-python-r1",
+        "status": "scored",
+        "mean": 13.95,
+        "episode_variance": 277.0685685685686
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-python-r2",
+        "status": "scored",
+        "mean": 232.793,
+        "episode_variance": 7848.42857957958
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-breakout-python-r0",
+        "status": "scored",
+        "mean": 188.975,
+        "episode_variance": 5393.469844844845
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-breakout-python-r1",
+        "status": "scored",
+        "mean": 13.95,
+        "episode_variance": 277.0685685685686
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-breakout-python-r2",
+        "status": "scored",
+        "mean": 232.793,
+        "episode_variance": 7848.42857957958
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 16,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 0.024333333333333335,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.0013693333333333335,
+    "run_sample_std": 0.037004504230341115,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w16-r0",
+        "status": "scored",
+        "mean": 0.067,
+        "episode_variance": 0.06257357357357357
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w16-r1",
+        "status": "scored",
+        "mean": 0.005,
+        "episode_variance": 0.004979979979979983
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w16-r2",
+        "status": "scored",
+        "mean": 0.001,
+        "episode_variance": 0.001
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w16-r0",
+        "status": "scored",
+        "mean": 0.067,
+        "episode_variance": 0.06257357357357357
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w16-r1",
+        "status": "scored",
+        "mean": 0.005,
+        "episode_variance": 0.004979979979979983
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w16-r2",
+        "status": "scored",
+        "mean": 0.001,
+        "episode_variance": 0.001
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 0.4543333333333333,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.015890333333333326,
+    "run_sample_std": 0.12605686547480596,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w32-r0",
+        "status": "scored",
+        "mean": 0.468,
+        "episode_variance": 0.4874634634634635
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w32-r1",
+        "status": "scored",
+        "mean": 0.322,
+        "episode_variance": 1.231547547547548
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w32-r2",
+        "status": "scored",
+        "mean": 0.573,
+        "episode_variance": 1.1538248248248246
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w32-r0",
+        "status": "scored",
+        "mean": 0.468,
+        "episode_variance": 0.4874634634634635
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w32-r1",
+        "status": "scored",
+        "mean": 0.322,
+        "episode_variance": 1.231547547547548
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w32-r2",
+        "status": "scored",
+        "mean": 0.573,
+        "episode_variance": 1.1538248248248246
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 4,
+    "n": 2,
+    "expected_repeats": 3,
+    "complete": false,
+    "mean": 0.16899999999999998,
+    "attempts_finished": true,
+    "model_failures": 1,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "available scored outputs only; incomplete valid repetition group",
+    "run_sample_variance": 0.031751999999999996,
+    "run_sample_std": 0.17819090885900996,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w4-r0",
+        "status": "scored",
+        "mean": 0.295,
+        "episode_variance": 0.36033533533533535
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w4-r2",
+        "status": "scored",
+        "mean": 0.043,
+        "episode_variance": 0.043194194194194194
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w4-r0",
+        "status": "scored",
+        "mean": 0.295,
+        "episode_variance": 0.36033533533533535
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w4-r1",
+        "status": "model_failure",
+        "error_type": "RuntimeError"
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w4-r2",
+        "status": "scored",
+        "mean": 0.043,
+        "episode_variance": 0.043194194194194194
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "seaquest",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 0.30433333333333334,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.051516333333333345,
+    "run_sample_std": 0.22697209813836886,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w8-r0",
+        "status": "scored",
+        "mean": 0.217,
+        "episode_variance": 0.27418518518518514
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w8-r1",
+        "status": "scored",
+        "mean": 0.134,
+        "episode_variance": 0.14619019019019017
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w8-r2",
+        "status": "scored",
+        "mean": 0.562,
+        "episode_variance": 0.6968528528528528
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-w8-r0",
+        "status": "scored",
+        "mean": 0.217,
+        "episode_variance": 0.27418518518518514
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-w8-r1",
+        "status": "scored",
+        "mean": 0.134,
+        "episode_variance": 0.14619019019019017
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-w8-r2",
+        "status": "scored",
+        "mean": 0.562,
+        "episode_variance": 0.6968528528528528
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "seaquest",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 11.329666666666666,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 3.026384333333335,
+    "run_sample_std": 1.7396506354246346,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-python-r0",
+        "status": "scored",
+        "mean": 10.062,
+        "episode_variance": 115.50566166166166
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-python-r1",
+        "status": "scored",
+        "mean": 10.614,
+        "episode_variance": 129.57858258258256
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-python-r2",
+        "status": "scored",
+        "mean": 13.313,
+        "episode_variance": 234.949980980981
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-seaquest-python-r0",
+        "status": "scored",
+        "mean": 10.062,
+        "episode_variance": 115.50566166166166
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-seaquest-python-r1",
+        "status": "scored",
+        "mean": 10.614,
+        "episode_variance": 129.57858258258256
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-seaquest-python-r2",
+        "status": "scored",
+        "mean": 13.313,
+        "episode_variance": 234.949980980981
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "snake",
+    "kind": "network",
+    "width": 16,
+    "n": 1,
+    "expected_repeats": 3,
+    "complete": false,
+    "mean": 6.093,
+    "attempts_finished": true,
+    "model_failures": 2,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "available scored outputs only; incomplete valid repetition group",
+    "run_sample_variance": null,
+    "run_sample_std": null,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w16-r0",
+        "status": "scored",
+        "mean": 6.093,
+        "episode_variance": 17.613964964964968
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w16-r0",
+        "status": "scored",
+        "mean": 6.093,
+        "episode_variance": 17.613964964964968
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w16-r1",
+        "status": "model_failure",
+        "error_type": "IncompleteModelOutput"
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w16-r2",
+        "status": "model_failure",
+        "error_type": "IncompleteModelOutput"
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "snake",
+    "kind": "network",
+    "width": 32,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 3.0803333333333334,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.7505163333333333,
+    "run_sample_std": 0.8663234576838684,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w32-r0",
+        "status": "scored",
+        "mean": 2.084,
+        "episode_variance": 4.379323323323323
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w32-r1",
+        "status": "scored",
+        "mean": 3.501,
+        "episode_variance": 5.605604604604604
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w32-r2",
+        "status": "scored",
+        "mean": 3.656,
+        "episode_variance": 5.234898898898898
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w32-r0",
+        "status": "scored",
+        "mean": 2.084,
+        "episode_variance": 4.379323323323323
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w32-r1",
+        "status": "scored",
+        "mean": 3.501,
+        "episode_variance": 5.605604604604604
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w32-r2",
+        "status": "scored",
+        "mean": 3.656,
+        "episode_variance": 5.234898898898898
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "snake",
+    "kind": "network",
+    "width": 4,
+    "n": 1,
+    "expected_repeats": 3,
+    "complete": false,
+    "mean": 2.084,
+    "attempts_finished": true,
+    "model_failures": 2,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "available scored outputs only; incomplete valid repetition group",
+    "run_sample_variance": null,
+    "run_sample_std": null,
+    "runs": [
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w4-r1",
+        "status": "scored",
+        "mean": 2.084,
+        "episode_variance": 4.379323323323323
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w4-r0",
+        "status": "model_failure",
+        "error_type": "IncompleteModelOutput"
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w4-r1",
+        "status": "scored",
+        "mean": 2.084,
+        "episode_variance": 4.379323323323323
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w4-r2",
+        "status": "model_failure",
+        "error_type": "IncompleteModelOutput"
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "snake",
+    "kind": "network",
+    "width": 8,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 2.1396666666666664,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 5.300449333333332,
+    "run_sample_std": 2.302270473539834,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w8-r0",
+        "status": "scored",
+        "mean": 0.087,
+        "episode_variance": 0.09352452452452455
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w8-r1",
+        "status": "scored",
+        "mean": 1.703,
+        "episode_variance": 4.451242242242243
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w8-r2",
+        "status": "scored",
+        "mean": 4.629,
+        "episode_variance": 7.935294294294294
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-w8-r0",
+        "status": "scored",
+        "mean": 0.087,
+        "episode_variance": 0.09352452452452455
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-w8-r1",
+        "status": "scored",
+        "mean": 1.703,
+        "episode_variance": 4.451242242242243
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-w8-r2",
+        "status": "scored",
+        "mean": 4.629,
+        "episode_variance": 7.935294294294294
+      }
+    ]
+  },
+  {
+    "model": "deepseek",
+    "transport": "deepseek_api",
+    "game": "snake",
+    "kind": "python",
+    "width": null,
+    "n": 3,
+    "expected_repeats": 3,
+    "complete": true,
+    "mean": 13.821666666666667,
+    "attempts_finished": true,
+    "model_failures": 0,
+    "infrastructure_errors": 0,
+    "pending": 0,
+    "variance_scope": "three independent generations",
+    "run_sample_variance": 0.8789453333333342,
+    "run_sample_std": 0.9375208442127216,
+    "runs": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-python-r0",
+        "status": "scored",
+        "mean": 13.901,
+        "episode_variance": 88.06926826826826
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-python-r1",
+        "status": "scored",
+        "mean": 12.847,
+        "episode_variance": 78.75434534534534
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-python-r2",
+        "status": "scored",
+        "mean": 14.717,
+        "episode_variance": 87.43434534534533
+      }
+    ],
+    "attempts": [
+      {
+        "repeat": 0,
+        "job": "e5-deepseek-snake-python-r0",
+        "status": "scored",
+        "mean": 13.901,
+        "episode_variance": 88.06926826826826
+      },
+      {
+        "repeat": 1,
+        "job": "e5-deepseek-snake-python-r1",
+        "status": "scored",
+        "mean": 12.847,
+        "episode_variance": 78.75434534534534
+      },
+      {
+        "repeat": 2,
+        "job": "e5-deepseek-snake-python-r2",
+        "status": "scored",
+        "mean": 14.717,
+        "episode_variance": 87.43434534534533
+      }
+    ]
+  }
+]
