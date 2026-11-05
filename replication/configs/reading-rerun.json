@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "jobs": [
+    {
+      "id": "e3-deepseek-romaji-r1-rerun-v1",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "romaji",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "empty_output_rerun",
+      "source_attempt": "e3-deepseek-romaji-r1"
+    }
+  ],
+  "reporting": "Retain the original empty-output attempt. Report the new generation separately and identify its substitution in the completed three-repeat panel."
+}

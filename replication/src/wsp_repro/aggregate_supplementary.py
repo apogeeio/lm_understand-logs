@@ -95,7 +95,20 @@ def build():
     for model in ("astra", "deepseek"):
         calls = [c for r in evidence["rows"] if r["model"] == model for c in r["calls"]]
         usage[model] = {"calls": len(calls), **{k: sum(c[k] for c in calls) for k in ("input_tokens", "output_tokens", "reasoning_tokens", "seconds")}}
-    return {"schema": 1, "date": "2026-11-05", "additional_attempts": 50,
+    rerun_folder = p / "runs/e3-deepseek-romaji-r1-rerun-v1"
+    panel = None
+    if (rerun_folder / "semantic-review.json").exists():
+        replacement = reading_record(rerun_folder, 1)
+        replacement["source_attempt"] = "e3-deepseek-romaji-r1"
+        panel_runs = []
+        for group in groups:
+            if group["experiment"] == 3 and group["model"] == "deepseek":
+                panel_runs.extend(replacement if r["id"] == replacement["source_attempt"] else r for r in group["runs"])
+        panel = {"generation_attempts": 10, "valid_outputs": 9, "empty_outputs": 1,
+                 "replacement": replacement, "runs": panel_runs,
+                 "metrics": {k: stats([r["metrics"][k] for r in panel_runs]) for k in replacement["metrics"]},
+                 "original_panel_preserved": True}
+    return {"deepseek_experiment3_completed_panel": panel, "schema": 1, "date": "2026-11-05", "additional_attempts": 50,
             "additional_valid_outputs": 49, "additional_empty_final_outputs": 1,
             "wall_seconds": evidence["wall_seconds"], "provider_concurrency": cfg["provider_concurrency"],
             "variance_ddof": 1, "variance_unit": "fraction squared for reading/car; score squared for games",

@@ -1,4 +1,990 @@
 {
+  "deepseek_experiment3_completed_panel": {
+    "generation_attempts": 10,
+    "valid_outputs": 9,
+    "empty_outputs": 1,
+    "replacement": {
+      "id": "e3-deepseek-romaji-r1-rerun-v1",
+      "repeat": 1,
+      "outcome": "valid",
+      "metrics": {
+        "correct": true,
+        "order_correct": true,
+        "copy_exact_match": false
+      },
+      "raw_metrics": {
+        "correct": true,
+        "order_correct": true,
+        "copy_exact_match": false
+      },
+      "answer_sha256": "5e69bd8ca368494b827199d695c6378bbe28965edb555223af3f38b63380f798",
+      "protocol_audit": "passed",
+      "notes": [
+        "All 17 submitted Python turns inspected: weight-only norms, matrix compositions, singular/eigenvalue decompositions and subspace projections. No evaluation on token inputs, nonlinear layer forward, gradient training or external lookup. Final labels: romaji, as is; 16 proposed copy heads do not match the reference set."
+      ],
+      "source_attempt": "e3-deepseek-romaji-r1"
+    },
+    "runs": [
+      {
+        "id": "e3-deepseek-english-r0",
+        "repeat": 0,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "d0c2fa8c32b5ce817adf151f529953a11ed89df2d3e8466f605be2bd7faa05ab",
+        "protocol_audit": "passed",
+        "notes": []
+      },
+      {
+        "id": "e3-deepseek-english-r1",
+        "repeat": 1,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": false,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": false,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "c25dd4ac5193fb4d390182c97a49adb56459668782ed2a781d33c793c7b49b73",
+        "protocol_audit": "passed",
+        "notes": [
+          "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+        ],
+        "calls": [
+          {
+            "response_sha256": "751da567299f9d419aa5d1a4c34fa3b526a44a204c8923cc4a5b0b9cf9e93c62",
+            "answer_sha256": "bf3b8254ef82577ed41dfdb31aba295e40b95e19d0baf7572c37b0ae844fbd56",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 13.967231315909885,
+            "input_tokens": 1970,
+            "output_tokens": 1667,
+            "reasoning_tokens": 1593
+          },
+          {
+            "response_sha256": "d9bcdb2567099138e07e31ff7f95f8506eb0a5592954a3c6c4d1aeea0fc2c00b",
+            "answer_sha256": "41befee55d55f7c1cf70f579aa2adbf70cb3938571741c5646bd7dd5ee6147fa",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 12.740824255044572,
+            "input_tokens": 3563,
+            "output_tokens": 1623,
+            "reasoning_tokens": 1418
+          },
+          {
+            "response_sha256": "e5fd856bf11caeeeab9bae0d841debf1bd1a2011508a5f07ce7d7230172b811d",
+            "answer_sha256": "d6413e63c0c87f21cede067c16a1a076c8afbb11066ad73d1bd0cc84079e0bef",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 36.93730449897703,
+            "input_tokens": 8802,
+            "output_tokens": 4928,
+            "reasoning_tokens": 4460
+          },
+          {
+            "response_sha256": "75b1616ee8d86e32089c63d9fa3fbf39f97e747c469189f766789b43bce9e303",
+            "answer_sha256": "4f6cfe5ac0f8dc9b1ae2a9ba30ba4670c23ace4fe069f32d5bdf080dfa0121b0",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 71.75263414799701,
+            "input_tokens": 11773,
+            "output_tokens": 9205,
+            "reasoning_tokens": 8583
+          },
+          {
+            "response_sha256": "b7818c07abc755012179de158d7080bf601d03dd42cdc4eb778cc7f91e9f4157",
+            "answer_sha256": "450a967612787ad944c46e1bfac9ce1362398c0d0677c1882fcb27b75458ec8b",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 48.0898255049251,
+            "input_tokens": 15331,
+            "output_tokens": 6530,
+            "reasoning_tokens": 6067
+          },
+          {
+            "response_sha256": "f3df737bee5537ae70fb86df01fea82e7d988ce5fe46bf50d6da209dde96aed5",
+            "answer_sha256": "59dd64f6810198a37c5eb6d6aeb7fae493b28801553f1ea74575f8a270a75067",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 26.58662054897286,
+            "input_tokens": 20178,
+            "output_tokens": 3469,
+            "reasoning_tokens": 3015
+          },
+          {
+            "response_sha256": "29de5cebdc43e9db26bf7f402d3d4bbee80fe9748e21b90bec9753320b08ebcb",
+            "answer_sha256": "59eec2d5546c5746c9018980a7ca669c3e694ae95c0ec6f31668f6b1a6b31c33",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 57.714370668982156,
+            "input_tokens": 24252,
+            "output_tokens": 7893,
+            "reasoning_tokens": 7424
+          },
+          {
+            "response_sha256": "627f4c9342524b1cd96fe20cdf7185b9b995bebe1ff8ed9d271a761cc943b45a",
+            "answer_sha256": "0e45152ece975415f8088d99b8381d6fc2d033486a4d1b7d8c76479643d16436",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 107.82331077300478,
+            "input_tokens": 27261,
+            "output_tokens": 13337,
+            "reasoning_tokens": 12791
+          },
+          {
+            "response_sha256": "067d1ef62c4b0d778159a83d8b9f054cb6cbcb5fd8a392505325b05b29775a67",
+            "answer_sha256": "d2be07b7a7f04276e3131de38c06e0e06a133110a12ef73242e52875827ce0bc",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 82.4136240449734,
+            "input_tokens": 29399,
+            "output_tokens": 11401,
+            "reasoning_tokens": 10795
+          },
+          {
+            "response_sha256": "de5335d22f813329b35fb8723562ee0c9e218f90f3f5efc2309145915f8ee5db",
+            "answer_sha256": "5abeefa839267e0b98b8405ee165f9011b0872cb6d4bfce2be59be2bc32967b4",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 296.84680790500715,
+            "input_tokens": 30011,
+            "output_tokens": 40946,
+            "reasoning_tokens": 40648
+          },
+          {
+            "response_sha256": "bd905fcd44dcf2c73a42d667b124a8033b77c2fc5342b7eddce6845858f4cbb8",
+            "answer_sha256": "7ecfdf2dc984e37cc7445db5e8ce2fd23c5ed1d183edc7b95189e10e3ad47f5e",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 67.81554350501392,
+            "input_tokens": 32356,
+            "output_tokens": 9006,
+            "reasoning_tokens": 8714
+          },
+          {
+            "response_sha256": "72bfa296ceb19f111de6cdd137425bda0b160087661bb2ee19df674e3c116eeb",
+            "answer_sha256": "a457cb32cb01a044eb3c6741f58973fe1ee80d3cc79ec16b404bccae699a438c",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 120.83614146104082,
+            "input_tokens": 35480,
+            "output_tokens": 16791,
+            "reasoning_tokens": 16302
+          },
+          {
+            "response_sha256": "6d5720c667901894c5f3b10294c68c4c65bd872b3e76d3077e14dc436ee525e6",
+            "answer_sha256": "5f6ec155208983de87a02c20730db9e9d0d8cda50c965be1310a8d18c688c315",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 59.17032776493579,
+            "input_tokens": 38700,
+            "output_tokens": 7910,
+            "reasoning_tokens": 7314
+          },
+          {
+            "response_sha256": "4b697361bab6330e8eac440e3c7cea7e650a9fecedd0d309cfc2b728773c7667",
+            "answer_sha256": "cdd5f4173ae9b1881d52f193b7837590c419db40df3cd6abd2ccd7b5efaad1cb",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 163.12679078697693,
+            "input_tokens": 44816,
+            "output_tokens": 21315,
+            "reasoning_tokens": 21102
+          },
+          {
+            "response_sha256": "b3e85bab34fd5ea920b18e9be8f0f506a7d4ef35e46f7b3eb1886390ceff795a",
+            "answer_sha256": "3e4fb8d6eca541fb3a2360a9b713fbf1ff2f1b67085bc5d9994afb59637f766d",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 90.60406914795749,
+            "input_tokens": 48561,
+            "output_tokens": 11869,
+            "reasoning_tokens": 11443
+          },
+          {
+            "response_sha256": "ace95d18a79edae8c7f9615840549527e51334353e13b0e950294b663fd83362",
+            "answer_sha256": "8dd9e98dfc4cb141c7d09d306c291a41bc447f180c67a872c313b09baa3255c3",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 56.15171897597611,
+            "input_tokens": 51165,
+            "output_tokens": 7385,
+            "reasoning_tokens": 6814
+          },
+          {
+            "response_sha256": "5adbd5be5007ff08e4e004402d5225bf11fc2f5bdffa9e9d9db6fd0197af8aa2",
+            "answer_sha256": "4e12d8fde7bc56b03e02a3bd8c18e4e042930994dc27d483bd0999e53aad804b",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 95.99885055900086,
+            "input_tokens": 51845,
+            "output_tokens": 13072,
+            "reasoning_tokens": 12257
+          },
+          {
+            "response_sha256": "fb73d68ffde41bd0d1d90ee51a636daa5683fe9d3c9036d65e6c0ba22c8f69a5",
+            "answer_sha256": "c25dd4ac5193fb4d390182c97a49adb56459668782ed2a781d33c793c7b49b73",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 192.31893847091123,
+            "input_tokens": 52773,
+            "output_tokens": 25453,
+            "reasoning_tokens": 23766
+          }
+        ]
+      },
+      {
+        "id": "e3-deepseek-english-r2",
+        "repeat": 2,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": false,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": false,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "7c220234b3db5c4d89eb74155a9a80d36decc93d662592de7840ea141ea07c14",
+        "protocol_audit": "passed",
+        "notes": [
+          "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer.",
+          "Analytic logit-moment estimates use weight norms and parameter moments; no sampled input, LayerNorm execution or attention softmax."
+        ],
+        "calls": [
+          {
+            "response_sha256": "00e72ce777fc17303306542d6b9cc46553c90dc72879e8f7b079e7924695ae7b",
+            "answer_sha256": "d77dcc7eead498bc55ae35791e9d2b21e3650b6f0a1aac5a5d5fd973c12dbefd",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 20.185429534991272,
+            "input_tokens": 1970,
+            "output_tokens": 2753,
+            "reasoning_tokens": 1984
+          },
+          {
+            "response_sha256": "3fb9d3aa1ab1b12321e034fd7ed0178eca51872088bb67c0dca1e21d47b054a9",
+            "answer_sha256": "357a9cd2bde7d311aa40dd13245fddf7fab639636e40d4edba9c338ae34aefcf",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 24.46441762102768,
+            "input_tokens": 5080,
+            "output_tokens": 3487,
+            "reasoning_tokens": 2492
+          },
+          {
+            "response_sha256": "8d07df7d5b355d5c29e4f08b031f2287ff9cc95682ce5c5ecbc983e1ddb3d6ab",
+            "answer_sha256": "dca46a411156e27ae08cce7fce5380a6dcc0bfd097373e39d39c289bd9db25db",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 48.23271339596249,
+            "input_tokens": 11685,
+            "output_tokens": 6947,
+            "reasoning_tokens": 5870
+          },
+          {
+            "response_sha256": "fb23399c1b104ab2884bb13972515c1bcf12afc47d66b4006038daa1b749cf1e",
+            "answer_sha256": "4dfba303ca76da6aa06179d13e03dc6500eca449d8b5c32e894341c2aaf08c15",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 52.38324305298738,
+            "input_tokens": 23253,
+            "output_tokens": 7091,
+            "reasoning_tokens": 5951
+          },
+          {
+            "response_sha256": "83828cddc83b70b51931a2dbbfa28af04ec6d7c054d2c458272abdaab71303c9",
+            "answer_sha256": "a9d99a7ecac8a7b48ff70ab7deefc611fde37c14bb09aff340bbeaad67f49ae3",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 55.72853528498672,
+            "input_tokens": 30555,
+            "output_tokens": 7717,
+            "reasoning_tokens": 6737
+          },
+          {
+            "response_sha256": "6065a1760ab8446ad5509ad77957fbc9ddb85d62aaa6b114b29496e8089b7c59",
+            "answer_sha256": "d370dd1db162b0a0a887fbfea397be5832c47faf57a7d1cebd644de3294ab9df",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 123.07519361795858,
+            "input_tokens": 33862,
+            "output_tokens": 16780,
+            "reasoning_tokens": 15556
+          },
+          {
+            "response_sha256": "8057786f1f334955af5014ccade0d5311bb2d305db5ecd06a55a0f363cf15e57",
+            "answer_sha256": "82956fec7db91866e334f39af80637dfd096778da94ab3abef27e1222eea400c",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 130.24485813104548,
+            "input_tokens": 37036,
+            "output_tokens": 18334,
+            "reasoning_tokens": 17720
+          },
+          {
+            "response_sha256": "71a7f378c5b79766cf03e2d5499c81e211cc85c95310d3232788e9703769bed9",
+            "answer_sha256": "d13fb61ebf6875d10ff2f436e85a9e368d9fd3a063fa2e0d7dca97c6f0a8a12e",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 102.70153453201056,
+            "input_tokens": 38637,
+            "output_tokens": 13773,
+            "reasoning_tokens": 13024
+          },
+          {
+            "response_sha256": "8e9678a3f1db0a60da64c211b8361b801d8557bf8963082351ef406e6f90fdb2",
+            "answer_sha256": "94b393684af3dc02dab7e93d7192f7135057e8fa9dd9e10e647338ef2403b22f",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 63.068504384951666,
+            "input_tokens": 41101,
+            "output_tokens": 8803,
+            "reasoning_tokens": 8246
+          },
+          {
+            "response_sha256": "4eb15f53de76a74fe9777fe47f6efe2ab964f8bedcc15b3ed5e45167b7831d9a",
+            "answer_sha256": "7c220234b3db5c4d89eb74155a9a80d36decc93d662592de7840ea141ea07c14",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 290.7497214790201,
+            "input_tokens": 43704,
+            "output_tokens": 40739,
+            "reasoning_tokens": 39060
+          }
+        ]
+      },
+      {
+        "id": "e3-deepseek-python-r0",
+        "repeat": 0,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": true
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": true
+        },
+        "answer_sha256": "36bc697875491254ad5066073eb53cd3e2f956aa0443912147ede30b16ae8156",
+        "protocol_audit": "passed",
+        "notes": []
+      },
+      {
+        "id": "e3-deepseek-python-r1",
+        "repeat": 1,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "2f956722f014cc1862655f030a74a298b1c0547cc2a115f6d66b1dbddf4e7c7a",
+        "protocol_audit": "passed",
+        "notes": [
+          "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+        ],
+        "calls": [
+          {
+            "response_sha256": "059a3687fd5dc8597b3fe88d94bab419aa600815a8cd59e1e6f1da386b889b1d",
+            "answer_sha256": "c4ae08d2a08b6aa694ee5191c3964469ec20363c69db7e68b677aeaa24b730a9",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 8.292822843999602,
+            "input_tokens": 1970,
+            "output_tokens": 1036,
+            "reasoning_tokens": 780
+          },
+          {
+            "response_sha256": "76ed56b51688589dd755dff8da73cec3f8fc6a48e49ffc01e108150aef0f2a63",
+            "answer_sha256": "2ed817777b32ee881f475a5f0039be9c1c612022d153e653c9c2356e6a2ca9e3",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 41.28832194395363,
+            "input_tokens": 5379,
+            "output_tokens": 5639,
+            "reasoning_tokens": 5137
+          },
+          {
+            "response_sha256": "ac36b3014311d704ee7d297ce77142f04ec415284e323428909ad38fd8b3f3ea",
+            "answer_sha256": "9a388d61208c3863a20ed45a29e4bda93e97ba897087c1987a9dc3752462680e",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 51.629164065932855,
+            "input_tokens": 8964,
+            "output_tokens": 6841,
+            "reasoning_tokens": 6131
+          },
+          {
+            "response_sha256": "47ab67849838c8313688c957827a8330c774340b414c7e37de1c06d1eec50902",
+            "answer_sha256": "3f1147a3aacdde335618ac25f18575ff676197631c04fef094befd5f1be13dbe",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 56.511582483071834,
+            "input_tokens": 16363,
+            "output_tokens": 7555,
+            "reasoning_tokens": 7022
+          },
+          {
+            "response_sha256": "4f8e00cf5133b9cf9e15e61434a3005152ccec893be94c2323e6cf5a689047da",
+            "answer_sha256": "8fc707c8b7965e45453e12a5cecbd1388d43789b54d4f690aad391d72e2d9e11",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 73.15505286701955,
+            "input_tokens": 19777,
+            "output_tokens": 9539,
+            "reasoning_tokens": 8858
+          },
+          {
+            "response_sha256": "ad67f256fc63240cc7089430c2ad4f3ed33e07bc61422168c7896a8f39c8d5de",
+            "answer_sha256": "5af317f66626623a09938c85a92df091cc1180a9f272bccff57922aa66b7aabe",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 36.419060891959816,
+            "input_tokens": 22690,
+            "output_tokens": 4735,
+            "reasoning_tokens": 4276
+          },
+          {
+            "response_sha256": "f512b6ac90a1a92f6baf4201efba12de07b028321c2707cb3506c7d8c2a534e0",
+            "answer_sha256": "ac0e4f68345b650eb6b5e8bf314eb126d023aa7ff97c73fb45ca7e8d7a4f67b6",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 112.91771427798085,
+            "input_tokens": 25227,
+            "output_tokens": 15628,
+            "reasoning_tokens": 15218
+          },
+          {
+            "response_sha256": "d318fa416fff468ea8b7ca4eedf7308ca5229ec4a83383456c3446008aef5076",
+            "answer_sha256": "ec645f8a2832d0cc4fd1feeac577990ff4aa703a61427634aad40be67ac01340",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 62.503637767978944,
+            "input_tokens": 26698,
+            "output_tokens": 8330,
+            "reasoning_tokens": 8059
+          },
+          {
+            "response_sha256": "414187322d1e86fadba2721705ebc7bbd543651c8235e1ec33f5a589ff02ec2f",
+            "answer_sha256": "b6fe97b48a1a9b2fb5dfdc3609a565a9308f952f8785a192fcba8a919431b340",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 2.3061737150419503,
+            "input_tokens": 28854,
+            "output_tokens": 298,
+            "reasoning_tokens": 0
+          },
+          {
+            "response_sha256": "78f13efd632001f1c514a308c40408239882803e9d995271bef28d28523af48d",
+            "answer_sha256": "ade8ca7a0a7485ec9a325e80340e22ce1a5358b5cb0b1dbd9e95ffed0271b31b",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 79.8687409380218,
+            "input_tokens": 30304,
+            "output_tokens": 10633,
+            "reasoning_tokens": 9848
+          },
+          {
+            "response_sha256": "ef69326633a6e58cecdeefa8604370e3b9e7d6c3a9ffd35925c0e4f481c533c1",
+            "answer_sha256": "3ce5b8713c59f97cdb899b0c1a0045302e0573e1814bbce48fa12a3d62cb0f37",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 71.03302194504067,
+            "input_tokens": 35204,
+            "output_tokens": 9632,
+            "reasoning_tokens": 9294
+          },
+          {
+            "response_sha256": "6ae87c2db78d4b4d050010e82cb43cb836a1250bbedcb8862ab70a7d2acd1c5f",
+            "answer_sha256": "badf95064a285689c8eaa479498fea973ad042aacf3443b5bdb83746ead7e5c4",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 50.19064110098407,
+            "input_tokens": 37127,
+            "output_tokens": 6693,
+            "reasoning_tokens": 6125
+          },
+          {
+            "response_sha256": "f96097aa46faecb453fbbb927ca404612548a0f0dfe525d258c297a4896a3c72",
+            "answer_sha256": "1d3e942d86e2d0c899b1604b1a100a1f5cf0a9eb0422a0abea1482ba2e5ff589",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 42.551034306990914,
+            "input_tokens": 37757,
+            "output_tokens": 6216,
+            "reasoning_tokens": 5586
+          },
+          {
+            "response_sha256": "05b9105aba4d8d3fe6d64be11c25d2f471c665054593bfcd80fd07010125fdb8",
+            "answer_sha256": "4fa95ac94b829076e92bbbc95ed5d30ec815732961754f6302a8d9432fcc19cb",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 169.12536126899067,
+            "input_tokens": 41337,
+            "output_tokens": 23413,
+            "reasoning_tokens": 21930
+          },
+          {
+            "response_sha256": "a1a944f45bc41c0ce82a1cea7684bde2c3e8fa40d7796efda26c67f6cfc11aba",
+            "answer_sha256": "ecbba6b3fa4ccf6098e2e61b8b2d0fd43da2a63e95d7fc8e7b76fd6d8b58427c",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 90.59133992204443,
+            "input_tokens": 48007,
+            "output_tokens": 12580,
+            "reasoning_tokens": 11564
+          },
+          {
+            "response_sha256": "cfbdedba3a90263036a50ce56616a2bd057f7d0cc7211dab55fcdf88e153dc46",
+            "answer_sha256": "2f956722f014cc1862655f030a74a298b1c0547cc2a115f6d66b1dbddf4e7c7a",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 122.46014651900623,
+            "input_tokens": 50298,
+            "output_tokens": 17931,
+            "reasoning_tokens": 16103
+          }
+        ]
+      },
+      {
+        "id": "e3-deepseek-python-r2",
+        "repeat": 2,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": true
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": true
+        },
+        "answer_sha256": "96a9d8d6b131916e74baea4d6eb012a32152437855ca1916606487398edc15ee",
+        "protocol_audit": "passed",
+        "notes": [
+          "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+        ],
+        "calls": [
+          {
+            "response_sha256": "4aae77bc7d2ef2422aff16a717468f7263b93e5064782ef1890b51f4eef2f896",
+            "answer_sha256": "23d6e61e14449a98f0e2314a5173f218a0c3e05a97032c7648f4bfbac7da77ed",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 22.744712718995288,
+            "input_tokens": 1970,
+            "output_tokens": 3059,
+            "reasoning_tokens": 2476
+          },
+          {
+            "response_sha256": "5a4d6d4204efaaf134818a236f12b2f81911b8577fde36ad4f613d7bec4ae320",
+            "answer_sha256": "d8bd8526ffa8ae165301a968e2f1f52c5a9f96c4d1a9da7ab05722d6452dcf47",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 40.29643720702734,
+            "input_tokens": 8592,
+            "output_tokens": 5642,
+            "reasoning_tokens": 4737
+          },
+          {
+            "response_sha256": "11ea2fa659c268e1d6ccaba1f22f2f412d68683fe00aaa72334cedd6a65cf52f",
+            "answer_sha256": "0d28b1eff914197baddc5d09e4f73d4bf16ab41ab338b66499342ae04f52364a",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 30.988529972964898,
+            "input_tokens": 15174,
+            "output_tokens": 4170,
+            "reasoning_tokens": 3323
+          },
+          {
+            "response_sha256": "382a60618bc4f14d094a7a4d97a7bd1878629e78b0f3e25123e3f1012d38bf3f",
+            "answer_sha256": "780f16272296d290797170ee804e2a65f175396c9b3db3c180eed4bb6cec6730",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 78.04223957599606,
+            "input_tokens": 18536,
+            "output_tokens": 10862,
+            "reasoning_tokens": 9806
+          },
+          {
+            "response_sha256": "a47bd9dfa92bb3752d768e271a871af3b454a9f25202da9b840f9e1f22470034",
+            "answer_sha256": "79d238147031ab545a62e694ad6ca449cb5fa56f498689721a2ce8eadba5967f",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 172.2802829319844,
+            "input_tokens": 22458,
+            "output_tokens": 24709,
+            "reasoning_tokens": 23877
+          },
+          {
+            "response_sha256": "6e4e50a73d1bbd7223538c802a626e0858d98936e5d01e084cd0d355f5a6fc84",
+            "answer_sha256": "2c54529b92db3dbebea98557468808ba1a5eb20961f713ffa82d95f2b324da43",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 114.85895904002246,
+            "input_tokens": 23948,
+            "output_tokens": 16591,
+            "reasoning_tokens": 15733
+          },
+          {
+            "response_sha256": "6498527d24674271479a974613908c6293cd2a50c544cedfb028d7b1cb7c41a6",
+            "answer_sha256": "96a9d8d6b131916e74baea4d6eb012a32152437855ca1916606487398edc15ee",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 188.45950926304795,
+            "input_tokens": 28443,
+            "output_tokens": 27163,
+            "reasoning_tokens": 25546
+          }
+        ]
+      },
+      {
+        "id": "e3-deepseek-romaji-r0",
+        "repeat": 0,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "3a873ddb2557349d8398de93e05bac2454a4d7a8dbaf77111590d686e70cc28a",
+        "protocol_audit": "passed",
+        "notes": []
+      },
+      {
+        "id": "e3-deepseek-romaji-r1-rerun-v1",
+        "repeat": 1,
+        "outcome": "valid",
+        "metrics": {
+          "correct": true,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": true,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "5e69bd8ca368494b827199d695c6378bbe28965edb555223af3f38b63380f798",
+        "protocol_audit": "passed",
+        "notes": [
+          "All 17 submitted Python turns inspected: weight-only norms, matrix compositions, singular/eigenvalue decompositions and subspace projections. No evaluation on token inputs, nonlinear layer forward, gradient training or external lookup. Final labels: romaji, as is; 16 proposed copy heads do not match the reference set."
+        ],
+        "source_attempt": "e3-deepseek-romaji-r1"
+      },
+      {
+        "id": "e3-deepseek-romaji-r2",
+        "repeat": 2,
+        "outcome": "valid",
+        "metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "raw_metrics": {
+          "correct": false,
+          "order_correct": true,
+          "copy_exact_match": false
+        },
+        "answer_sha256": "38e3ea83710cba64ccc0c897a0a8c49639256bbe8653add3654404cecd7fd597",
+        "protocol_audit": "passed",
+        "notes": [
+          "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+        ],
+        "calls": [
+          {
+            "response_sha256": "415ffb3cb0a9ffbd056e37fd4917e43cd737a3f4929356b05f20222c43cea3ca",
+            "answer_sha256": "ee97b00a6e021c7b48df2c8f9529f05505bb0309c809e717b0e8de5be34ebd45",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 20.273627556976862,
+            "input_tokens": 1970,
+            "output_tokens": 3127,
+            "reasoning_tokens": 1932
+          },
+          {
+            "response_sha256": "0ede351ea9264c3e9a5678763f2f9b020a2796d6423f84e760fc29bf1b717349",
+            "answer_sha256": "b843fb42edc435cf9f1bbbf6ba44783a5bb849dd918fc8c9283c5bae11a9f008",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 18.007647464983165,
+            "input_tokens": 4647,
+            "output_tokens": 2745,
+            "reasoning_tokens": 1713
+          },
+          {
+            "response_sha256": "b3213bc7857c2466f29633448a71a21cebb6281d909c5c65082fb884b3ca38a3",
+            "answer_sha256": "34c5ff5b38f475727ecaa5add744de3c9f3eb37905a2eb8a9c826fa7e84cd338",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 41.21663320600055,
+            "input_tokens": 9340,
+            "output_tokens": 6068,
+            "reasoning_tokens": 5113
+          },
+          {
+            "response_sha256": "db2ad5c165af5abae20cabbfc2ef191f3bda1fcc64a1661b321efcdefce3da75",
+            "answer_sha256": "b79e1cb14cffa9f49db08c6a8880dd05497034adffa75ddc5edf103ca5b8ed23",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 29.077962124021724,
+            "input_tokens": 13161,
+            "output_tokens": 4176,
+            "reasoning_tokens": 3276
+          },
+          {
+            "response_sha256": "9c2087365801bb2c3a5d972f619ebe4556c8f7fa4dfc029a069295235fc75e3b",
+            "answer_sha256": "d7d07e2b83e4995a1c7466b2e1499772b9b1e71efbe637b3b207f962822d70ea",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 53.81822686397936,
+            "input_tokens": 16070,
+            "output_tokens": 7290,
+            "reasoning_tokens": 6317
+          },
+          {
+            "response_sha256": "3631bb388ab4fe568e076bc1eb51d14cc36dd4f7c73f87dce71a1ed4e887907e",
+            "answer_sha256": "1080659e52fe8954869dcd2e3a87410ac3ceb6c1a419b37a6c1795868debb370",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 72.16230161604472,
+            "input_tokens": 18695,
+            "output_tokens": 10225,
+            "reasoning_tokens": 9421
+          },
+          {
+            "response_sha256": "c0a8d897ef43213e7f43c2ae323567515b0b63948b52f2e308434a1554ee4b2e",
+            "answer_sha256": "b02c028b0ebd7825631f4a99ff184d287072440443ee6c91fb925d5e1dc9f3c6",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 104.87907489098143,
+            "input_tokens": 21599,
+            "output_tokens": 14581,
+            "reasoning_tokens": 13204
+          },
+          {
+            "response_sha256": "497cf0dabedda3050e40e392827d18c7b5e6478671c5e220188b3835413efd14",
+            "answer_sha256": "66edf22f01ead1dce9247f503a7ecc04304abddeef484b1ae948b2487fa8905c",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 81.55999413901009,
+            "input_tokens": 23027,
+            "output_tokens": 11481,
+            "reasoning_tokens": 10011
+          },
+          {
+            "response_sha256": "e21b5efb52398d6f50376076a8e2ee098c0d633c2e9c6ea9961c748f72021355",
+            "answer_sha256": "0070f347bfc358799171dbb3437c35167963d7fce78c1f42acad7f8eb65b78b3",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 172.17995225905906,
+            "input_tokens": 29016,
+            "output_tokens": 23422,
+            "reasoning_tokens": 22272
+          },
+          {
+            "response_sha256": "50f10593cf4e045807ed4338b38cd5fcfe1ce96a15b33b9520747c2cc8115716",
+            "answer_sha256": "6926436ed53735f2e91c96160f0835a31e5be23ea48ce72fe50f29a282e33960",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 185.81770750891883,
+            "input_tokens": 31417,
+            "output_tokens": 25948,
+            "reasoning_tokens": 24438
+          },
+          {
+            "response_sha256": "deced45a6c610e3af9d0d0fa9ecdef0cbd764231b0293a6afeb00866ec5cd2fa",
+            "answer_sha256": "3d255ce8f8011d068f61f715b50c6fe692ec601010108eee44fe28fb6e01f712",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 66.8783414120553,
+            "input_tokens": 33159,
+            "output_tokens": 10734,
+            "reasoning_tokens": 9540
+          },
+          {
+            "response_sha256": "d1ab13eb089ad355b0bcd1d174490abd44b0f56f7cf3b408639214b4f844f22f",
+            "answer_sha256": "362a9048e8934ef3d6b8fce6e6e064b395f2b7f47b26598df13ed138ab60ad38",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 160.30580875696614,
+            "input_tokens": 36551,
+            "output_tokens": 22046,
+            "reasoning_tokens": 20771
+          },
+          {
+            "response_sha256": "1795cede991b53a218b11b32d076efb53335c245aa469fddd9dfb46a099bc2dc",
+            "answer_sha256": "e9bba1f7a9b6958e153d72ffd82096096e855e745c4b2fa44f55d7a77ef160ff",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 46.95609929098282,
+            "input_tokens": 38746,
+            "output_tokens": 6736,
+            "reasoning_tokens": 5430
+          },
+          {
+            "response_sha256": "38512e43b95a9610694a29f457b6e0857658682a898f5cf7309d25f1cb81788d",
+            "answer_sha256": "38e3ea83710cba64ccc0c897a0a8c49639256bbe8653add3654404cecd7fd597",
+            "model": "deepseek-flash",
+            "transport": "deepseek_api",
+            "effort": "max",
+            "seconds": 227.76847028604243,
+            "input_tokens": 41415,
+            "output_tokens": 33147,
+            "reasoning_tokens": 31456
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "correct": {
+        "values": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          false
+        ],
+        "attempts": 9,
+        "n": 9,
+        "failures": 0,
+        "mean": 0.1111111111111111,
+        "sample_variance": 0.1111111111111111
+      },
+      "order_correct": {
+        "values": [
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "attempts": 9,
+        "n": 9,
+        "failures": 0,
+        "mean": 0.7777777777777778,
+        "sample_variance": 0.19444444444444445
+      },
+      "copy_exact_match": {
+        "values": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false
+        ],
+        "attempts": 9,
+        "n": 9,
+        "failures": 0,
+        "mean": 0.2222222222222222,
+        "sample_variance": 0.19444444444444445
+      }
+    },
+    "original_panel_preserved": true
+  },
   "schema": 1,
   "date": "2026-11-05",
   "additional_attempts": 50,
