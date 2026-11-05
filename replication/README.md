@@ -2,21 +2,21 @@
 
 Replication and extensions of [RikiyaT/lm_understand-logs](https://github.com/RikiyaT/lm_understand-logs), fixed at commit `4d09ba6d6a7e891dd8063974dfe81b3d78e3494f`.
 
-[Results](RESULTS.md) cover 120 game-policy generation attempts, 20 weight-reading cases, two car repairs and eight Go attempts. Game evaluation produced 114 valid policies and six output-limit failures. Mathematical weight editing has no completed benchmark comparison in this release. Gemma experiments are outside the replication scope.
+[Original game results](RESULTS.md) cover 120 game-policy generation attempts: 114 valid policies and six output-limit failures. [Supplementary results](SUPPLEMENTARY_RESULTS.md) extend weight reading to 60 attempts (59 valid answers, one empty output), car repair to six patches, and add six valid game policies in a separate high-output-budget arm. Eight Go attempts are unchanged. Mathematical weight editing has no completed benchmark comparison in this release. Gemma experiments are outside the replication scope.
 
 ## Experimental design
 
 | Component | Conditions | Independent generations |
 |---|---|---:|
-| Weight reading, experiments 1–3 | Original game, shape and language cases | One per case and model |
-| Car repair, experiment 4 | Original one-shot task | One per model |
+| Weight reading, experiments 1–3 | Original game, shape and language cases | Three per case and model |
+| Car repair, experiment 4 | Original one-shot task | Three per model |
 | Game networks, experiment 5 | Breakout, Seaquest, Asterix, custom Snake; hidden widths 32/16/8/4 | Three per cell and model |
 | Python game baseline | Same four games; stateless policy, at most 40 physical code lines | Three per game and model |
 | Go, experiment 6 | Feedback budgets 0/10/25/50 | One per budget and model |
 
 Models are `gpt-6-astra` and `deepseek-flash`. Astra uses a native Responses coding-plan bridge; DeepSeek uses its Chat Completions API with thinking enabled and `reasoning_effort=max`. Astra game generation uses `xhigh`; other tasks retain the effort recorded in [study.json](configs/study.json). Returned model identifiers and transport are recorded per response.
 
-Each independent generation starts with a fresh context. Requests contain the task and neutral instructions, with no native tools, repository instructions or unrelated history. Multi-turn searches retain only their own explicit history and opaque reasoning state. The bridge uses its provider-native output limit; DeepSeek's configured output limit is 128,000 tokens.
+Each independent generation starts with a fresh context. Requests contain the task and neutral instructions, with no native tools, repository instructions or unrelated history. Multi-turn searches retain only their own explicit history and opaque reasoning state. The bridge uses its provider-native output limit; DeepSeek's original output limit is 128,000 tokens. Six supplementary game generations use a separate 393,216-token limit; their scores are not pooled with the original arm.
 
 ## Game protocol
 
@@ -24,7 +24,7 @@ Each independent generation starts with a fresh context. Requests contain the ta
 - Network parameters start at zero and are assigned from the final numeric edits block. No training or evaluator feedback is provided during generation.
 - Each policy is frozen and hashed before evaluation on 1,000 episodes, seeds 0–999, sticky probability 0.1 and a 10,000-step cap. Action sampling uses a separate seeded random stream.
 - Python policies receive the same current observation and action space, with a 100-ms per-action limit. They execute in a Linux bubblewrap sandbox without files outside the sandbox, network access, persistent memory or online models. Observation-derived prediction and planning are permitted.
-- Parsing, execution and output-limit failures are retained as failed attempts. Infrastructure failures may be retried; completed replies and frozen policies are reused. Missing outputs are not replaced or scored as zero.
+- Parsing, execution and output-limit failures are retained as failed attempts. Infrastructure failures may be retried; completed replies and frozen policies are reused. Missing outputs are not replaced or scored as zero. An explicitly defined supplementary arm may add a new generation with a different budget while retaining the original failure.
 
 Snake is a custom extension: a 10×10 board with walls, initial length three, +1 reward per food item and no survival reward. Immediate reversal is ignored; entering a vacating tail is allowed. Filling the board wins. Channels encode head, body, food, empty cells, previous head and tail. No-op and fire continue the current heading. Sticky actions repeat the last executed action.
 
@@ -93,3 +93,7 @@ Mathematical execution is disabled by `configs/math-pause.json`. Launch, search,
 The GPU environment is specified in `requirements-math.txt`: Python 3.12, torch 2.14/CUDA 13.0 and vLLM 0.33. Compiler components must use compatible versions: NVCC/NVVM/CRT 13.0.88 and CCCL 13.0.85. Evaluation data is isolated from the editing process, and submitted weights are frozen before held-out evaluation.
 
 GPQA requires separately authorized data access. Original MMLU-Pro question IDs were recovered, but the private prompt helper is unavailable. The official IFEval checker agreed with 399 of 400 released sample flags; the remaining discrepancy is retained. These data and evaluator differences are tracked independently from experiment outcomes.
+
+## Supplementary repeats
+
+[Supplementary manifest](configs/supplementary.json) defines 44 additional experiment 1–4 repeats and six separate high-budget game attempts. Generation concurrency is bounded at 12 DeepSeek and four Astra requests. Run `python -m wsp_repro.supplementary` in the configured environment; after trace review and artifact verification, `python -m wsp_repro.aggregate_supplementary` exports the audited statistics. Empty final responses are retained as failed outputs, with null scores.

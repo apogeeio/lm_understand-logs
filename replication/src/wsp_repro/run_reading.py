@@ -7,7 +7,7 @@ import re
 import shlex
 import subprocess
 from .spec import make_spec
-from .providers import call
+from .providers import call, IncompleteModelOutput
 from .settings import connection
 
 ROOT=Path(__file__).resolve().parents[3]
@@ -74,6 +74,8 @@ def generate(job):
         if (turn_dir/"call.json").exists() and (turn_dir/"answer.md").exists():
             text=(turn_dir/"answer.md").read_text();metadata=json.loads((turn_dir/"call.json").read_text())
         else:text,metadata=call(job["model"],job["effort"],history,turn_dir)
+        if not text.strip():
+            raise IncompleteModelOutput("Empty final content; provider response retained")
         if metadata.get("transport") in ("openai_api","coding_plan_responses_bridge"):
             history.extend(metadata["continuation_items"])
         else:history.append({"role":"assistant","content":text})

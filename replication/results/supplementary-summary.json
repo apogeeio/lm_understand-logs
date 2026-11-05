@@ -1,0 +1,3859 @@
+{
+  "schema": 1,
+  "date": "2026-11-05",
+  "additional_attempts": 50,
+  "additional_valid_outputs": 49,
+  "additional_empty_final_outputs": 1,
+  "wall_seconds": 2964.1825704574585,
+  "provider_concurrency": {
+    "deepseek": 12,
+    "astra": 4
+  },
+  "variance_ddof": 1,
+  "variance_unit": "fraction squared for reading/car; score squared for games",
+  "reading_and_car": [
+    {
+      "experiment": 1,
+      "model": "astra",
+      "case": "breakout",
+      "runs": [
+        {
+          "id": "e1-astra-breakout-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "588f518438b33baae7bc97a44f86b1b7d0433ac6e4b5bacfbb1e7c535ddba99e",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-astra-breakout-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "88d0b13941095b34a7c953c0cc66789d503573d2d2c02e34de1976302d2db800",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "32cf4fa6fc3928954bbf9a88cf548483da6722fc825a62089190d0f30fd78b9b",
+              "answer_sha256": "88d0b13941095b34a7c953c0cc66789d503573d2d2c02e34de1976302d2db800",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 68.11242152401246,
+              "input_tokens": 70269,
+              "output_tokens": 1896,
+              "reasoning_tokens": 1024
+            }
+          ]
+        },
+        {
+          "id": "e1-astra-breakout-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "bb04a036fafa36a74f4ffab717bc6f252046429cf1d6026a99bf939d9a9935ce",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "65e893b1fd79368e869067bbb9ee25f3b92665f64fa18e02e8aff66fcf07d6ec",
+              "answer_sha256": "bb04a036fafa36a74f4ffab717bc6f252046429cf1d6026a99bf939d9a9935ce",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 53.976441700942814,
+              "input_tokens": 70269,
+              "output_tokens": 1386,
+              "reasoning_tokens": 465
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "astra",
+      "case": "freeway",
+      "runs": [
+        {
+          "id": "e1-astra-freeway-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "fc5deeb7f691f352a6705619672446a3ac5a1913f568f313175d42947d3961dc",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-astra-freeway-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "89ba82c7a614a15e5a341168ce3e6a7a0584a9206dab1f52a1861280313c6bb5",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "b5005c800d374be3392d6c356ecdb8d5f6599cad281d21e828a3c3208fb48649",
+              "answer_sha256": "89ba82c7a614a15e5a341168ce3e6a7a0584a9206dab1f52a1861280313c6bb5",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 70.04809105896857,
+              "input_tokens": 70215,
+              "output_tokens": 2011,
+              "reasoning_tokens": 1034
+            }
+          ]
+        },
+        {
+          "id": "e1-astra-freeway-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "1faec5aaefe92acf9b7c214946f4bc7639591af53a585e919cb0f848f41e0675",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "ba1bf6c7f456fac334802e22191fc4b46829f488ec822dacf9beea49bde64d0a",
+              "answer_sha256": "1faec5aaefe92acf9b7c214946f4bc7639591af53a585e919cb0f848f41e0675",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 61.996047761058435,
+              "input_tokens": 70215,
+              "output_tokens": 1977,
+              "reasoning_tokens": 1034
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "astra",
+      "case": "pacman",
+      "runs": [
+        {
+          "id": "e1-astra-pacman-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "c489c909a493a5b79c2edb90c36f30bd05a99daba9f8def873f76c1ad9c77918",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-astra-pacman-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "826546d175e2d7f86dbf218da3f07131b422395480aabc96ae5e804cf10f38fe",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "7a461f37c56b4950ccbb4b7e5c550dc4f31dcb30d63bd4b95cb5316c2fca2ef4",
+              "answer_sha256": "826546d175e2d7f86dbf218da3f07131b422395480aabc96ae5e804cf10f38fe",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 70.73634632898029,
+              "input_tokens": 70243,
+              "output_tokens": 1910,
+              "reasoning_tokens": 826
+            }
+          ]
+        },
+        {
+          "id": "e1-astra-pacman-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "c24caba257f057c949837921bfbb250b122e6c0c2a380847da7166392c97bbc3",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "6277bf838b95e90471b531fb978466eeb572d62a9f3f2a4129ca12a0c1f105a6",
+              "answer_sha256": "c24caba257f057c949837921bfbb250b122e6c0c2a380847da7166392c97bbc3",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 48.91175309906248,
+              "input_tokens": 70243,
+              "output_tokens": 1465,
+              "reasoning_tokens": 516
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "astra",
+      "case": "pong",
+      "runs": [
+        {
+          "id": "e1-astra-pong-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "858af602c679af517d354b0b6f542cc1ad1feac7f9aedd20bec907b96cac7e1f",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-astra-pong-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "766969633f332821d40df1fc81fca56c34bc35f60a5ee9a5128b2ec6e92d8cee",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "cbb9c124783b897edd0f05e13edff59d63a1d496ada84dcf4c63571e237caa36",
+              "answer_sha256": "766969633f332821d40df1fc81fca56c34bc35f60a5ee9a5128b2ec6e92d8cee",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 61.00906785798725,
+              "input_tokens": 70243,
+              "output_tokens": 1716,
+              "reasoning_tokens": 826
+            }
+          ]
+        },
+        {
+          "id": "e1-astra-pong-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "b337d353813d7ef0bc47b9c9cf6f2946a826d82e7128d125209e1fa2e8bcd3d7",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "c1157ec88f724db991b4f61b8dc4ae17d16ffe9964416be58f8940aa79be76c6",
+              "answer_sha256": "b337d353813d7ef0bc47b9c9cf6f2946a826d82e7128d125209e1fa2e8bcd3d7",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 58.018062604009174,
+              "input_tokens": 70243,
+              "output_tokens": 1534,
+              "reasoning_tokens": 481
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "breakout",
+      "runs": [
+        {
+          "id": "e1-deepseek-breakout-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "0d5ed46ac4ec3b54cc4a99c004de6eb1600b9cc8280b59fbedea0ee4daa19d5a",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-deepseek-breakout-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "d0c70e55a95dd73acfe3b40c7bb9b37a6d07784c7859d56289b87369cb1542b6",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "6b972154586b868beb5eafc45ad174735e28ba3440fe5d0e7efbb9151af998c2",
+              "answer_sha256": "d0c70e55a95dd73acfe3b40c7bb9b37a6d07784c7859d56289b87369cb1542b6",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 354.53465723700356,
+              "input_tokens": 70299,
+              "output_tokens": 65244,
+              "reasoning_tokens": 64449
+            }
+          ]
+        },
+        {
+          "id": "e1-deepseek-breakout-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "5f53a2e2845ee0c8e6f4d96dedc83db38a0c333e041d4d14b79f683f3d40c9ed",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "b6ae6a74133c06dfc529b0e778bf8f36516c358ccf154a9ed032b2c93cc7c5fe",
+              "answer_sha256": "5f53a2e2845ee0c8e6f4d96dedc83db38a0c333e041d4d14b79f683f3d40c9ed",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 182.3452636540169,
+              "input_tokens": 70299,
+              "output_tokens": 35005,
+              "reasoning_tokens": 33986
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "freeway",
+      "runs": [
+        {
+          "id": "e1-deepseek-freeway-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "3cbd7a3d1186b44dae6f2f36291024570fa56be44cd33f8814d23b2037b58672",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-deepseek-freeway-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "8dfc35f420a8e30e0e21de72d650cf74d2c6bd94205f955174513865292fc6d6",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "aac21531119376a1ad5677ba53228adb2f6295461c07f04562e363516701c771",
+              "answer_sha256": "8dfc35f420a8e30e0e21de72d650cf74d2c6bd94205f955174513865292fc6d6",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 366.07113038399257,
+              "input_tokens": 70245,
+              "output_tokens": 66708,
+              "reasoning_tokens": 65932
+            }
+          ]
+        },
+        {
+          "id": "e1-deepseek-freeway-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "c39baf9f07fcb506d7a0053d4334ba75e83119f933cce0be1af0237d1962b6f8",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "a3d2e32cd7af0ea57a1a8082adee42563e55564606e3b3a0e9f6527655072b3a",
+              "answer_sha256": "c39baf9f07fcb506d7a0053d4334ba75e83119f933cce0be1af0237d1962b6f8",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 467.1854274140205,
+              "input_tokens": 70245,
+              "output_tokens": 83956,
+              "reasoning_tokens": 83200
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.6666666666666666,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pacman",
+      "runs": [
+        {
+          "id": "e1-deepseek-pacman-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "8c75bc241722353f3170287928a0cada4b9ac64eeda7bae7f4dec046a1a9e261",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-deepseek-pacman-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "19510a6868533130cf2384f81e0c4d81f89903d0108e81a9117bf5f81828d401",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "a5c47a771b1bfca696032483fa7b15d868bea86dcedcbdfb8c12a44f57ee3149",
+              "answer_sha256": "19510a6868533130cf2384f81e0c4d81f89903d0108e81a9117bf5f81828d401",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 561.2100735889981,
+              "input_tokens": 70273,
+              "output_tokens": 96027,
+              "reasoning_tokens": 95014
+            }
+          ]
+        },
+        {
+          "id": "e1-deepseek-pacman-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "7974c24f5744455dbdeafa3a9b2b9d51f8f7b54a04ba7b82c1be55551a282a22",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "bb1895e75d76d22d787bda233328c0e4f0a60a30091727b61779d3483833acd6",
+              "answer_sha256": "7974c24f5744455dbdeafa3a9b2b9d51f8f7b54a04ba7b82c1be55551a282a22",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 354.00379269907717,
+              "input_tokens": 70273,
+              "output_tokens": 67509,
+              "reasoning_tokens": 66490
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pong",
+      "runs": [
+        {
+          "id": "e1-deepseek-pong-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "03605a8e375aab26e3b2ee9747f38c14c2275002decc8183c42cb5a3df6bff49",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e1-deepseek-pong-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "4695887a4ea9729a259267b96fed8e4e17e45223b15d146e9a7005ee50502896",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "556c45e2644792009cbe5c16f1c78bddd328b6fc420cb2439552ec73bfd2c5e0",
+              "answer_sha256": "4695887a4ea9729a259267b96fed8e4e17e45223b15d146e9a7005ee50502896",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 441.3812634309288,
+              "input_tokens": 70273,
+              "output_tokens": 77708,
+              "reasoning_tokens": 76821
+            }
+          ]
+        },
+        {
+          "id": "e1-deepseek-pong-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "b4d31f79cbc48ff4830af5514939e505f3f5de16acd7972da8a5c703b6939e20",
+          "protocol_audit": "passed",
+          "notes": [
+            "Game-category labels checked against the final answer; Frogger is accepted as the road-crossing category for Freeway, consistently across repeats."
+          ],
+          "calls": [
+            {
+              "response_sha256": "3f45e442e5f75c5f4b41656c033370669011f84f6584d8d55ed584e53ccc3efb",
+              "answer_sha256": "b4d31f79cbc48ff4830af5514939e505f3f5de16acd7972da8a5c703b6939e20",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 233.1011993989814,
+              "input_tokens": 70273,
+              "output_tokens": 42528,
+              "reasoning_tokens": 41509
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "astra",
+      "case": "circle",
+      "runs": [
+        {
+          "id": "e2-astra-circle-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "b110d22af671c9bd56441f1bd013c40d2a3d9abf061f394fd9530d65ea811964",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-astra-circle-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "4b27ccdae99b14ba5ad639b659fcd9698cf0f51a1b44f04af32bfd8c28e0366e",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "a214ab8c01b59805461314ee0c52f0055c4bd98af3b6ef8f71a632c4a2d0c349",
+              "answer_sha256": "4b27ccdae99b14ba5ad639b659fcd9698cf0f51a1b44f04af32bfd8c28e0366e",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 100.3733146780869,
+              "input_tokens": 96311,
+              "output_tokens": 2653,
+              "reasoning_tokens": 1825
+            }
+          ]
+        },
+        {
+          "id": "e2-astra-circle-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "e7075b8329e5de2ff6c377f79e6a105357c98d15cdc0dd499c7addd13eef6df8",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "27adfd0407141faeb435108e6522c034a6c6cd47839d3c64aad271171004de8a",
+              "answer_sha256": "e7075b8329e5de2ff6c377f79e6a105357c98d15cdc0dd499c7addd13eef6df8",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 84.03407323593274,
+              "input_tokens": 96311,
+              "output_tokens": 2427,
+              "reasoning_tokens": 1751
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "astra",
+      "case": "square",
+      "runs": [
+        {
+          "id": "e2-astra-square-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "349d2e9df1fbf75217869b6f865b451f61028c789e9eed85cdc845f63ee6905e",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-astra-square-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "617d82867881e6263cdfb1c279d0297cbeef033adddd9c9799923d137460d501",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Rectangular frame is the accepted rectangle category; raw substring grader missed rectangular. Raw grade retained.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "49feef0f52f1f6b423a0a980e00db8a11127e052df1af8d133d080cd57f3090a",
+              "answer_sha256": "617d82867881e6263cdfb1c279d0297cbeef033adddd9c9799923d137460d501",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 107.22605414001737,
+              "input_tokens": 96309,
+              "output_tokens": 2800,
+              "reasoning_tokens": 2070
+            }
+          ]
+        },
+        {
+          "id": "e2-astra-square-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "2737bac2d107ec9c7af499fe46387ceef8f2713e018dc520fa19ba9735db83d2",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "125f4336b1f9e20f35b2f70d7e1f2321670c3f184c70aad9f418020170c942d8",
+              "answer_sha256": "2737bac2d107ec9c7af499fe46387ceef8f2713e018dc520fa19ba9735db83d2",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 113.75406588695478,
+              "input_tokens": 96309,
+              "output_tokens": 3387,
+              "reasoning_tokens": 2588
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "astra",
+      "case": "triangle",
+      "runs": [
+        {
+          "id": "e2-astra-triangle-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "4c32419aa6101d3ffb8ba684f143f78d72b1815f3a83688bd9b337c078abfe9f",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-astra-triangle-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "330c604a18ac1a2a827eae8501f8f91f7c40a580e8c2289a76f9a6c124654a5b",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "4665042479632c83e2841048ba88ddfb233d2a9b7177a1d449185c8126b18568",
+              "answer_sha256": "330c604a18ac1a2a827eae8501f8f91f7c40a580e8c2289a76f9a6c124654a5b",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 46.092351436964236,
+              "input_tokens": 96293,
+              "output_tokens": 1301,
+              "reasoning_tokens": 516
+            }
+          ]
+        },
+        {
+          "id": "e2-astra-triangle-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "33d92ee7b823f1f0158dc71d882d21caca2af0aa7a8def25988ce53716710ec3",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Incorrect hollow/outline description: target is filled."
+          ],
+          "calls": [
+            {
+              "response_sha256": "113f141e663d6e35a8221701b2b93934e5644950d2a1686e4200acf874e317b2",
+              "answer_sha256": "33d92ee7b823f1f0158dc71d882d21caca2af0aa7a8def25988ce53716710ec3",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 72.33004447096027,
+              "input_tokens": 96293,
+              "output_tokens": 1863,
+              "reasoning_tokens": 1034
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "circle",
+      "runs": [
+        {
+          "id": "e2-deepseek-circle-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "088a5ca131ada6567cca92012e790f72535eec478db4f8ccd503b58ce1eea965",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-deepseek-circle-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "1fbb9a83cb5f224b8f278c5981ed364ceaf008ff9ad2c69eba0ac4785b664ac2",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry."
+          ],
+          "calls": [
+            {
+              "response_sha256": "0a38280e1953bbe98362012379b7818c70d98c68ee194c1d0b2979ec52569319",
+              "answer_sha256": "1fbb9a83cb5f224b8f278c5981ed364ceaf008ff9ad2c69eba0ac4785b664ac2",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 412.0957943589892,
+              "input_tokens": 96339,
+              "output_tokens": 71578,
+              "reasoning_tokens": 70886
+            }
+          ]
+        },
+        {
+          "id": "e2-deepseek-circle-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "88468b07ee3a6a628d8d7b7d1937fe3f0150810044cd9d309537e294494d774a",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry.",
+            "Rounded oval geometry accepted for coarse category; digit 0/O interpretation and hollow interior are incorrect details."
+          ],
+          "calls": [
+            {
+              "response_sha256": "62a5138f1ff452dcd622125b8308badb1ab1a63853e4f5b9b533c0218ff8f0d1",
+              "answer_sha256": "88468b07ee3a6a628d8d7b7d1937fe3f0150810044cd9d309537e294494d774a",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 390.8883644649759,
+              "input_tokens": 96339,
+              "output_tokens": 74443,
+              "reasoning_tokens": 73713
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "square",
+      "runs": [
+        {
+          "id": "e2-deepseek-square-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "2c28a0963895ba9ed5605a9180b229ffb9c11315f1cde8b6ceddc1db104017ac",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-deepseek-square-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "4991e8c931dc4c9c5d245977c6afe822ee2804a291c6c3e3a4e71a0668868c78",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry."
+          ],
+          "calls": [
+            {
+              "response_sha256": "4763969f4cba033e7fe8dd1fefefd096552738130d9b4082f069241163622b90",
+              "answer_sha256": "4991e8c931dc4c9c5d245977c6afe822ee2804a291c6c3e3a4e71a0668868c78",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 505.6372651729034,
+              "input_tokens": 96337,
+              "output_tokens": 99230,
+              "reasoning_tokens": 98575
+            }
+          ]
+        },
+        {
+          "id": "e2-deepseek-square-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "a17ad3cd1a8779c801ceca1b317798ac2bdb9f64bb452f7949908d5179ab5469",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry."
+          ],
+          "calls": [
+            {
+              "response_sha256": "f09b35657e5003ca57ef68e054aee047938f71b4a78f258dcf2b07ea220874f5",
+              "answer_sha256": "a17ad3cd1a8779c801ceca1b317798ac2bdb9f64bb452f7949908d5179ab5469",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 447.3791462610243,
+              "input_tokens": 96337,
+              "output_tokens": 85184,
+              "reasoning_tokens": 84621
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "triangle",
+      "runs": [
+        {
+          "id": "e2-deepseek-triangle-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "5085ccba87aa55ef56d3b38b31c32f618079f340a9a2565b931ca68006c8238a",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e2-deepseek-triangle-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false
+          },
+          "raw_metrics": {
+            "correct": false
+          },
+          "answer_sha256": "941144f5f1858e6e9ddaae937804bee9de265a5163ae8cbb5012e4c4338f3210",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry."
+          ],
+          "calls": [
+            {
+              "response_sha256": "830306adc7a84105731c62ea246e6cef96093fcf5c74b33761144545d5e2ef94",
+              "answer_sha256": "941144f5f1858e6e9ddaae937804bee9de265a5163ae8cbb5012e4c4338f3210",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 399.9042284070747,
+              "input_tokens": 96321,
+              "output_tokens": 78295,
+              "reasoning_tokens": 77602
+            }
+          ]
+        },
+        {
+          "id": "e2-deepseek-triangle-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true
+          },
+          "raw_metrics": {
+            "correct": true
+          },
+          "answer_sha256": "cfed275ce3415ccbd4bbe985b14782e7c5d1007e7ed768a337ee641a5e5e583c",
+          "protocol_audit": "passed",
+          "notes": [
+            "Coarse shape category: circle/oval, square/rectangle, triangle. Fill and literal character identity are evaluated separately from coarse geometry."
+          ],
+          "calls": [
+            {
+              "response_sha256": "ac51b1e83f46da839925a875f044708f86c2d217cad77ed1b8bfb82b7ed017d7",
+              "answer_sha256": "cfed275ce3415ccbd4bbe985b14782e7c5d1007e7ed768a337ee641a5e5e583c",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 479.65824669296853,
+              "input_tokens": 96321,
+              "output_tokens": 108381,
+              "reasoning_tokens": 107733
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "astra",
+      "case": "english",
+      "runs": [
+        {
+          "id": "e3-astra-english-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "0f3780d481d51a68a02c10d4d934dc49c5cf9266619f23baa87af1355920daf0",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-astra-english-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "748e29e7c6812084e204b4e6a4d1b3fb654cd27a24a8ae93c7a8d2689e33c8bb",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "3dd3d83f2dbe7b248c055357a3a6a41a0b554f2ca8957e8c62a4043ac9d4c429",
+              "answer_sha256": "f8d19651b4c7cb41878bc80ed9e5e652856bcaa67597931b561b187e8735bd13",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 24.344419863889925,
+              "input_tokens": 1896,
+              "output_tokens": 618,
+              "reasoning_tokens": 190
+            },
+            {
+              "response_sha256": "8ec1ff24f7e0145ababd791eb6bd8979860acc369fd0116ff45d2d569b5eeee2",
+              "answer_sha256": "8e7ed7f3da4486212e3d83cf51f1449210468ff65761d530c958935ead253dac",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 41.03809427807573,
+              "input_tokens": 7386,
+              "output_tokens": 1318,
+              "reasoning_tokens": 516
+            },
+            {
+              "response_sha256": "1c5504a2721b6c469b3069a1e7c8c2d9c9909530d5f7876e88d121fa090a6250",
+              "answer_sha256": "351ea1b53b5799655b5e9936229b83cd65d7a046586820885d59c38f409e5dc8",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 59.17503939906601,
+              "input_tokens": 12942,
+              "output_tokens": 1721,
+              "reasoning_tokens": 829
+            },
+            {
+              "response_sha256": "13f6eeeaf2f71f2d42f56ea5e4c6cd875c481054c22efaf709df73cee8d075b1",
+              "answer_sha256": "ffc6e724a7c179464480011c412152efd87905341552229ba74a62a187f46abe",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 62.836536764050834,
+              "input_tokens": 20774,
+              "output_tokens": 1755,
+              "reasoning_tokens": 877
+            },
+            {
+              "response_sha256": "dce5acc84d42def06e40f2141ce6a130f04da1f4248c83203fdbd4d81b4be6a6",
+              "answer_sha256": "58e68a6a67c75c2d2b47bebff00b03c94e9dc948e7d339224124027b893d5f23",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 88.815163457999,
+              "input_tokens": 25297,
+              "output_tokens": 2283,
+              "reasoning_tokens": 1552
+            },
+            {
+              "response_sha256": "44b1e0515dcad518925f996176d26d9914be68e8d2a956c708cbe139e36debb5",
+              "answer_sha256": "8ddb65a59d55d6b1d786621c724b2946b7a848800aa008d2b776d87896edc1c1",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 36.10818568698596,
+              "input_tokens": 29998,
+              "output_tokens": 1072,
+              "reasoning_tokens": 516
+            },
+            {
+              "response_sha256": "56fcd6c48558461ec26571fffd96487e8cc69ce9e146f688a7d42bf5167f507b",
+              "answer_sha256": "a56769f48c3fd681085def3f41bbb7372f57c2df5d636472c881d12e3b9babea",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 76.26035827503074,
+              "input_tokens": 33156,
+              "output_tokens": 1977,
+              "reasoning_tokens": 1223
+            },
+            {
+              "response_sha256": "d86157f1ed205c2231098f8efdeb80e7ba64c937c5683007bd63e59da667f6a6",
+              "answer_sha256": "9cd768894d7ec80ad7ff49a1c3b77c1abddf312dae23d6f71880f7505a7ae59d",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 39.3156098020263,
+              "input_tokens": 36786,
+              "output_tokens": 983,
+              "reasoning_tokens": 536
+            },
+            {
+              "response_sha256": "30e8d93c4339d9ba1babdc9b6031204a0a82c9e47ed2c4cf45b0c60543daaf65",
+              "answer_sha256": "3acf08547c0c5d25e78c813b697285dc45623a4948c75217c3a97bb7cd8039a1",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 45.31792685599066,
+              "input_tokens": 39181,
+              "output_tokens": 1237,
+              "reasoning_tokens": 707
+            },
+            {
+              "response_sha256": "55201efa49dda41f3b1f354a9b366600c9ee1b692b0b88ece23acfc0d30217bf",
+              "answer_sha256": "7a270d08ac37ad73bd5df487c0cf8ad7b33689570cb318dbc6bbbad4918e87ab",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 152.70632181304973,
+              "input_tokens": 42534,
+              "output_tokens": 3333,
+              "reasoning_tokens": 3008
+            },
+            {
+              "response_sha256": "b386260422491e3a5a0b934a7fa99e807e8bf07b0cd1f8c4dc1221c808ed1556",
+              "answer_sha256": "748e29e7c6812084e204b4e6a4d1b3fb654cd27a24a8ae93c7a8d2689e33c8bb",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 158.2978396039689,
+              "input_tokens": 48185,
+              "output_tokens": 4118,
+              "reasoning_tokens": 1892
+            }
+          ]
+        },
+        {
+          "id": "e3-astra-english-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "8de34fe1e81d1f589fd3bd515c2ceee2b7391566f877c67e961a62e28d8ac051",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "6b4ee84aeb5ac641c4cf3e41c8ae33e58ae1ad5dcd05f73bab3bff6af571c78c",
+              "answer_sha256": "d6d5099772d6c5a34d4709ca2733277be45735ca5c8fce6fe6593d9cc7656d77",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 42.06896261498332,
+              "input_tokens": 1896,
+              "output_tokens": 919,
+              "reasoning_tokens": 469
+            },
+            {
+              "response_sha256": "94335f88807b81c5a6eb8e22017ad19182724d0dcb5bdcaf553e0bbbe5b0a0b4",
+              "answer_sha256": "242b26f018782ff286cd105026ec36c132693e91a20a60592fbeb40d690dd035",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 30.865866188076325,
+              "input_tokens": 7513,
+              "output_tokens": 945,
+              "reasoning_tokens": 360
+            },
+            {
+              "response_sha256": "139d0bc45a7891b92a8c19e95bdc1af23c1ecee75bf2bbea7231a6e90b127d25",
+              "answer_sha256": "782f5467e6fa68a8c6cc148a0b0ad9b8b01342657cbb6cc5dfc7195b26354427",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 27.558860268909484,
+              "input_tokens": 15507,
+              "output_tokens": 867,
+              "reasoning_tokens": 363
+            },
+            {
+              "response_sha256": "202bd4d51e1d2e42455fd602856dd339823f5935be368a8b1982a46549f75c1f",
+              "answer_sha256": "b08e31e95848ff0d7adb0338c322f1f29771dc5f8799dd00059e5af09e252132",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 40.339414012036286,
+              "input_tokens": 22471,
+              "output_tokens": 1251,
+              "reasoning_tokens": 516
+            },
+            {
+              "response_sha256": "c9f6e6cc14f259117e46cac9c05e9c652092b245720c9cbbd3d4bd245fc7f710",
+              "answer_sha256": "3dfbdb46462703cfc325b0bf0901d9b4cedc63630275122f7dcb88afb57bdf67",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 118.11729683796875,
+              "input_tokens": 25756,
+              "output_tokens": 2886,
+              "reasoning_tokens": 2070
+            },
+            {
+              "response_sha256": "8d1adda5073f459698ddc59f95ad90ee02238f76a1bd4fa5f1506f9315b2121a",
+              "answer_sha256": "71108487acf7edbdab2a6738d14d26304b0705f5d8235e2448dcf412a0c69047",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 21.495919081033207,
+              "input_tokens": 29456,
+              "output_tokens": 831,
+              "reasoning_tokens": 199
+            },
+            {
+              "response_sha256": "b78aafa27d16ad6b60b0ea41649a26d661adfd5851850c05300f4148e218b3e0",
+              "answer_sha256": "2808bfd4da72208b30131a4595ce52ae9951de7f87ae8664ea5246958ad06c6b",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 65.27366345305927,
+              "input_tokens": 32876,
+              "output_tokens": 1640,
+              "reasoning_tokens": 1034
+            },
+            {
+              "response_sha256": "bb69670ecbe58e6886d408b037f3e79359240cfdc10bdab0fbdbd7995f51de6e",
+              "answer_sha256": "65a1af7a4ee7c708281b33651f2a28d4619eaf1e9ac483afb5127cd69cdce05a",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 158.03339740994852,
+              "input_tokens": 35720,
+              "output_tokens": 3392,
+              "reasoning_tokens": 2764
+            },
+            {
+              "response_sha256": "e00949ff6b90562067bae4a86834e1216dfa504553cb354ad618566c6cbad79d",
+              "answer_sha256": "f9806723a6abc28393fa0c8b556151f889087ae17b8c157fc08062ef6501d9d6",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 93.38020438200328,
+              "input_tokens": 40918,
+              "output_tokens": 2418,
+              "reasoning_tokens": 1590
+            },
+            {
+              "response_sha256": "742a708f78bf1f8ef1689e1d34d9d9905e4b3b45f9e7b46c80ddf676eccd1000",
+              "answer_sha256": "2ea10413a3e2ee4bebc741f985d9e70352e3b3cd7d2d237f364ff2b54e434bb6",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 219.7415483269142,
+              "input_tokens": 44910,
+              "output_tokens": 4578,
+              "reasoning_tokens": 3836
+            },
+            {
+              "response_sha256": "4c378a794122356ffbdf6d5f074c77ba314fd88700da13fcb66e843ce17b4b00",
+              "answer_sha256": "f383669c00fc7644e0c276089532e52eebcc47954105495eb0d281f89c85df83",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 105.246826250921,
+              "input_tokens": 51292,
+              "output_tokens": 2383,
+              "reasoning_tokens": 1703
+            },
+            {
+              "response_sha256": "cb8c42d64474842d3290fc4e170a56628c546b497b3ea57bb5f4b8509b9b2525",
+              "answer_sha256": "7ccf2b026dec24723c1736eaf9bdbaad974c3bd3c9097d643aa324ba9ba28ea2",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 100.10678359493613,
+              "input_tokens": 55965,
+              "output_tokens": 2303,
+              "reasoning_tokens": 1820
+            },
+            {
+              "response_sha256": "224f07fa76f0770469bb75ff8f2baa6152ad07ac75344d9eba488387d848e45e",
+              "answer_sha256": "8de34fe1e81d1f589fd3bd515c2ceee2b7391566f877c67e961a62e28d8ac051",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 163.5485641210107,
+              "input_tokens": 59485,
+              "output_tokens": 3964,
+              "reasoning_tokens": 2045
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "order_correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "copy_exact_match": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "astra",
+      "case": "python",
+      "runs": [
+        {
+          "id": "e3-astra-python-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "dca5846c8d85f0d4c02a617c77726648a13f3e8e1e5d83ba37b08416bbab5c88",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-astra-python-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "b62832da0e9708892aa71ef8026b929add36d61143f04eadb90c067161b1920a",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "acd0712224bf4ef3cd389c8f2e30b527ebfda9e0d1912ac9bda5b86f76df9b57",
+              "answer_sha256": "311f3b3805b69ab3146518b6ce073a19b4639cbbeea802130777da8ad4588ec5",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 25.76809148094617,
+              "input_tokens": 1896,
+              "output_tokens": 1064,
+              "reasoning_tokens": 273
+            },
+            {
+              "response_sha256": "539fd29ace3baec6c63510adb93fa5c6c379146b4f63d25fc5223b1c41e7bfb3",
+              "answer_sha256": "b48a43c08b62946e3e80e9f58210a034bf137fc8c77e3b3fdd5d3e141d76397c",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 30.769195806933567,
+              "input_tokens": 8065,
+              "output_tokens": 1014,
+              "reasoning_tokens": 384
+            },
+            {
+              "response_sha256": "be0d05f2171fda28a9d5466803bd6f12fa3e391616907aa57196d7993ba8df8c",
+              "answer_sha256": "360a7eb08d2c9a1e61879f20a2d2cac8147e5d99a4a57fba654f55c1a606374c",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 33.767439168994315,
+              "input_tokens": 20973,
+              "output_tokens": 1103,
+              "reasoning_tokens": 381
+            },
+            {
+              "response_sha256": "9737800d3ab51800b94868e148688d5107a6094cfbf6aa78cd8a80d26fa8ebf7",
+              "answer_sha256": "438eb2983c5a1f4e80f3a9331a851618aea8d956ef22cc429beaf50c1d48aaa0",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 33.993919046013616,
+              "input_tokens": 26423,
+              "output_tokens": 997,
+              "reasoning_tokens": 499
+            },
+            {
+              "response_sha256": "45335b0c00ca56fd43417fc2cb04da12080cec3e88d01ee86d808cbbceba495b",
+              "answer_sha256": "2306fa3280127c7c9f8c27e9b1e06f9a450a62f55671db9efaa00a91876649d1",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 92.92103185004089,
+              "input_tokens": 32362,
+              "output_tokens": 2473,
+              "reasoning_tokens": 1665
+            },
+            {
+              "response_sha256": "d6100c6fbf36890781ed014aaa56574e37634abbedf925201675bea31f12101e",
+              "answer_sha256": "248428b123123b955cfa72c6013db1ec6ebf366237576221cb14387bbbb4634f",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 112.79047202703077,
+              "input_tokens": 38331,
+              "output_tokens": 2759,
+              "reasoning_tokens": 1969
+            },
+            {
+              "response_sha256": "f9724c0219b4d3fd0825abeabc54f86b5c65c105b9f81c09677c7e176cb98f7a",
+              "answer_sha256": "0bf64a8060bc7befd06d15b072002d7d69a1eebaa01638dbe8b46ad5ef5a1a76",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 116.41795881500002,
+              "input_tokens": 43687,
+              "output_tokens": 2980,
+              "reasoning_tokens": 2063
+            },
+            {
+              "response_sha256": "1fdf3043f928471556152623e15c8661eda3a7c34d6cbed694354112277980ee",
+              "answer_sha256": "ab1ee216de1060c0012b7afb72f0aff109344d4dfc2e4328a9dfd9e0928388c3",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 64.36869017896242,
+              "input_tokens": 47935,
+              "output_tokens": 1780,
+              "reasoning_tokens": 998
+            },
+            {
+              "response_sha256": "3c9b1d0feb7a34059eacd31cb246ae36beab9d4686d9366fed2c7e185ea19d5f",
+              "answer_sha256": "38ce979739c3540f1311dfeaa7eac4160be79ceaeb1608f3d4c2328a6aeb8fb1",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 116.68580883299,
+              "input_tokens": 53124,
+              "output_tokens": 3211,
+              "reasoning_tokens": 2568
+            },
+            {
+              "response_sha256": "d34dd56b615809e550d4bbbfc180a2a3f47964119c0ed714d209b12865dec6d3",
+              "answer_sha256": "b62832da0e9708892aa71ef8026b929add36d61143f04eadb90c067161b1920a",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 153.11052288895007,
+              "input_tokens": 58534,
+              "output_tokens": 4419,
+              "reasoning_tokens": 2027
+            }
+          ]
+        },
+        {
+          "id": "e3-astra-python-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "0f9fb3289d56e44744359edb52d199e12f473247fdc32d1da79ab16769faf25a",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer.",
+            "In-memory language-prior strings and quadratic assignment compare weight-derived features; no external corpus lookup or model forward evaluation."
+          ],
+          "calls": [
+            {
+              "response_sha256": "e6cad3ca00b560bae998270561353b2b8edbe208b873bd675605a1499803ec96",
+              "answer_sha256": "5bee6b4e62c1e4f91ce06ad40126090661837613abe5d5b36b6c0d89628fc7bf",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 47.03910031809937,
+              "input_tokens": 1896,
+              "output_tokens": 1187,
+              "reasoning_tokens": 555
+            },
+            {
+              "response_sha256": "2154a9c89972f8b7b6767470eb4c1546146d56c227a999b97ecb1c90100068fe",
+              "answer_sha256": "6c8c4ddb6fbb44b9b1219c2ed811dc859216bbefd3e7dcd177034782a3456f22",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 59.49080724490341,
+              "input_tokens": 9001,
+              "output_tokens": 1813,
+              "reasoning_tokens": 841
+            },
+            {
+              "response_sha256": "ac0b0e03aa29e5cc7b229f6724674512237c620bcf72f9448b0e20b50ec24d08",
+              "answer_sha256": "b8d7e235ac87b129601131a40586c096d3b05a200d0071bcd589744b4bfce292",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 76.16608829703182,
+              "input_tokens": 18236,
+              "output_tokens": 2419,
+              "reasoning_tokens": 1419
+            },
+            {
+              "response_sha256": "ede304f24c22e5dc94155b712802b0e750aa6c68032b51f575ea1606be3040c8",
+              "answer_sha256": "5b0b18bad0b9474f7deaf694a56282467cde6768409c9c97e7c439f59382c006",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 84.06214651605114,
+              "input_tokens": 28017,
+              "output_tokens": 2301,
+              "reasoning_tokens": 1418
+            },
+            {
+              "response_sha256": "0370283c6ea45d8e2bb8fc28334994e6e556d67ffda10716d1994775ba802354",
+              "answer_sha256": "505034bd70c664c22a141192a67465dc958729f0ae4792093f017bd383f70597",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 95.37882802495733,
+              "input_tokens": 38698,
+              "output_tokens": 2647,
+              "reasoning_tokens": 1631
+            },
+            {
+              "response_sha256": "0c6c96f16cd8c3e089c9c9050cc5022f28556aa2bebe21b891fe5f692cb30779",
+              "answer_sha256": "cb258cfc2383d215bf0ac6d70c131fb9c48753ebbd14c5a49770399943f1c572",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 106.37363253196236,
+              "input_tokens": 46404,
+              "output_tokens": 2899,
+              "reasoning_tokens": 1819
+            },
+            {
+              "response_sha256": "03ba462d72dae75658080b3e4b11da9a467d4a27f146b1260bd0a4e4a61ff8e6",
+              "answer_sha256": "2fdc533e461d621ad8dc7208e7b74d5b4b75c42517fdb4473dba54cf9ea28a8e",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 82.88146487099584,
+              "input_tokens": 55580,
+              "output_tokens": 2345,
+              "reasoning_tokens": 1316
+            },
+            {
+              "response_sha256": "87ac8b9b83e231aa4552436d081bb18c19f3d98368791edbeffebca1bd6bc8bc",
+              "answer_sha256": "908d7b52e6c09bca336ffa56bace8e12eecc97b20fa243ec7a1cc3dee370bf50",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 252.34921726793982,
+              "input_tokens": 67040,
+              "output_tokens": 6025,
+              "reasoning_tokens": 5019
+            },
+            {
+              "response_sha256": "148062b1cbb8c413b2b9f32dfce5e16cbb63a452b292981ae0dae9fa1adcb237",
+              "answer_sha256": "f0683dace2b1c059fd32fda6266ba51823d512eb21bc3e2277b76a40d7b8cc6f",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 204.075987096061,
+              "input_tokens": 78705,
+              "output_tokens": 4606,
+              "reasoning_tokens": 2789
+            },
+            {
+              "response_sha256": "05638acb04baed80aace9eaf53b0151721df891b9f9569c55a836d44099d145e",
+              "answer_sha256": "9b08f3aa2823704d6ead2841075f41eb757bc49100552028e9f3d2d3f19c08fa",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 181.66194843000267,
+              "input_tokens": 84418,
+              "output_tokens": 4135,
+              "reasoning_tokens": 3203
+            },
+            {
+              "response_sha256": "e85231ecdd51b87bc3ff97bae3d64aec7e94889892b338639499674d8987121b",
+              "answer_sha256": "0f9fb3289d56e44744359edb52d199e12f473247fdc32d1da79ab16769faf25a",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 199.49148834391963,
+              "input_tokens": 90008,
+              "output_tokens": 4999,
+              "reasoning_tokens": 3106
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            true,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.6666666666666666,
+          "sample_variance": 0.3333333333333333
+        },
+        "order_correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "copy_exact_match": {
+          "values": [
+            true,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.6666666666666666,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "astra",
+      "case": "romaji",
+      "runs": [
+        {
+          "id": "e3-astra-romaji-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "8bf98bf01e0fe1813bac7328456fb5e53aea62bfb2428af62cfc52d6bc8a4c0b",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-astra-romaji-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": true,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "6fa9d6317979b64d024c2e99b79c8080a3fa04b841aa1454b3e919e01cc6858b",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "3d2c48271651867d2f89d671e6e393936512d3b7d866e65f4884a02e72bb60bf",
+              "answer_sha256": "ea25ade9018ca7ee1f552efa81e71b6cfcaff43ca72f1adff4bb12d17d5b45ae",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 31.888238213956356,
+              "input_tokens": 1896,
+              "output_tokens": 1226,
+              "reasoning_tokens": 407
+            },
+            {
+              "response_sha256": "c4762c6cdb373ab42ac495e0d81e56dbc51723facba95dcc76bae54c7e9d94f2",
+              "answer_sha256": "6bda15eef17c9c9f07a8539c81445125397c282c9e1242ffe481a93abb061bd3",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 60.022450539981946,
+              "input_tokens": 9735,
+              "output_tokens": 1836,
+              "reasoning_tokens": 992
+            },
+            {
+              "response_sha256": "c28b8b4a630a4a1a343e57bf13713583173ad8a31d53bad4cb186c07e7154674",
+              "answer_sha256": "c13526d714bc1811d759090a917ee46e27573c41b7f8eb1c3fe24483abfa4ab3",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 84.20938671997283,
+              "input_tokens": 17748,
+              "output_tokens": 2143,
+              "reasoning_tokens": 1448
+            },
+            {
+              "response_sha256": "2e97a08620fc5354c7017ccb05d1c52d31ac23d803d5c327db06a9697af0ab79",
+              "answer_sha256": "f5df47e0a578a27074e383bd057ee61f68dd38407e4b5e3c540b07b8042e32fe",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 57.25112332496792,
+              "input_tokens": 27839,
+              "output_tokens": 1559,
+              "reasoning_tokens": 1017
+            },
+            {
+              "response_sha256": "a61665670df039195878c546a8adfcf8196b2a740beb3f033e6df2fd3f2ba430",
+              "answer_sha256": "bd10dd626d5ab695352d06f9be25c5a5607d10e0fac52c3060cefdd531bc0738",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 45.930061833932996,
+              "input_tokens": 37292,
+              "output_tokens": 1297,
+              "reasoning_tokens": 690
+            },
+            {
+              "response_sha256": "14b25c605ce0a51dc4c02d686ddd7654c3f53a624260ef24c05ca308b3ba3b89",
+              "answer_sha256": "838cc553f4a33222112fb674b32ab65f521c93724f76ff114aac7704bc62c385",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 70.9626326970756,
+              "input_tokens": 44040,
+              "output_tokens": 1993,
+              "reasoning_tokens": 1238
+            },
+            {
+              "response_sha256": "f08c61e31a055165c061defce8baf760a565d54ec5cf8074d29a16df752a5f20",
+              "answer_sha256": "ad58b2f479079e9ce79b9b703a5bed801b4949913998b33ef07c1ea9652e3055",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 97.42536934209056,
+              "input_tokens": 51672,
+              "output_tokens": 2485,
+              "reasoning_tokens": 1763
+            },
+            {
+              "response_sha256": "49fddccf8bcbb1b7667de9eaea11f01143ec2c9ddc0d5a4cb0dac9f0c4ae0a83",
+              "answer_sha256": "bf39ff2bccb87262feebff1ae39fe1c2c44855e251abe153cbfca2f7a2ce6ea8",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 91.9032394430833,
+              "input_tokens": 57236,
+              "output_tokens": 2191,
+              "reasoning_tokens": 1791
+            },
+            {
+              "response_sha256": "9dc838b496fbd2717089d518772e12b1781736dfa92b7af6118218277693e57a",
+              "answer_sha256": "2ce4ce2baff21ae783f31baf76bf753928d4a9ac79c60f91612d0aa52af531a2",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 139.48764534899965,
+              "input_tokens": 65893,
+              "output_tokens": 3318,
+              "reasoning_tokens": 2828
+            },
+            {
+              "response_sha256": "aa9f8bdaf3816971f3785cd2b243df87d1823c185ef33fb939d625675f0566e2",
+              "answer_sha256": "515e628e9606ce9361b998684b99f6b2d187573ff54dc5faa59e6d8661677094",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 107.47067437297665,
+              "input_tokens": 72299,
+              "output_tokens": 2689,
+              "reasoning_tokens": 2129
+            },
+            {
+              "response_sha256": "bc971455e5e2e37eae26890d20eaa2a813613250dfd21cfb5c7f83de2ab01814",
+              "answer_sha256": "6fa9d6317979b64d024c2e99b79c8080a3fa04b841aa1454b3e919e01cc6858b",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 116.40600603097118,
+              "input_tokens": 75975,
+              "output_tokens": 3387,
+              "reasoning_tokens": 964
+            }
+          ]
+        },
+        {
+          "id": "e3-astra-romaji-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "52bd0244ea66ce84f59b8b65535a962fd30ee7492c275f81f4a3e3d47f4d7d05",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "f2a15279028448c6dbea55f8b36b07a8b5345ec9ad9dff80686b3af656670f7d",
+              "answer_sha256": "e07786061078c4115c27ea65f839af8201fc9acefbaf1ec32969a3fa2e3b032e",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 50.39279934996739,
+              "input_tokens": 1896,
+              "output_tokens": 1216,
+              "reasoning_tokens": 770
+            },
+            {
+              "response_sha256": "c58925241c0d973f97620e356f1abb43a2258b91255b789db7d5e5d35dba6547",
+              "answer_sha256": "8b9495485aafdfcb7464978578344b81089775f2f56a28d02b88b1ff3c413e03",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 39.80248693795875,
+              "input_tokens": 9736,
+              "output_tokens": 1320,
+              "reasoning_tokens": 516
+            },
+            {
+              "response_sha256": "578d9c3addc36c8c4ee967414679a3f6e0c51ae79fd120955ab067353f508ec8",
+              "answer_sha256": "bd1265ff02d3366df922dfd11c62cb7f3427a17e6bcc967a6956cf2aa52d3eca",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 62.108215121901594,
+              "input_tokens": 18102,
+              "output_tokens": 1909,
+              "reasoning_tokens": 1222
+            },
+            {
+              "response_sha256": "22da5156a1697cbe0af7abe2d15998e702db9ad11742dc1b737cd16817a96655",
+              "answer_sha256": "1ea8771ca711f8126229937f05225c2a52b925127fd3117b09d5729f203bff03",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 16.353250774904154,
+              "input_tokens": 20093,
+              "output_tokens": 695,
+              "reasoning_tokens": 8
+            },
+            {
+              "response_sha256": "c241044820fa1cbf378e022e3b397e9688de3540aca8209fcbf3e72edbe265b1",
+              "answer_sha256": "61d8da5ba206afd502d6603d8e6f1ce457fc1187470f3b97d8c4ed2acb23abfe",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 105.69381473201793,
+              "input_tokens": 32167,
+              "output_tokens": 2669,
+              "reasoning_tokens": 2070
+            },
+            {
+              "response_sha256": "fd55509f68efae13daf0301b801901e1cada43253d1ea80df49b029db048b327",
+              "answer_sha256": "d487cef324dd7e85f2b727d2384ee0501cec8be0eeeaf4c52f2289364c12a664",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 88.17002586089075,
+              "input_tokens": 40191,
+              "output_tokens": 2399,
+              "reasoning_tokens": 1552
+            },
+            {
+              "response_sha256": "088d28890131b89b499b898c4d00d1993fd7b2e19788c3063dd57b08b55d9176",
+              "answer_sha256": "ada24b82d9e13a2085d8d28ccb7d122db083c5c922e70648709b615c39e4865e",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 59.07572208705824,
+              "input_tokens": 46689,
+              "output_tokens": 1850,
+              "reasoning_tokens": 1022
+            },
+            {
+              "response_sha256": "2b60ac18b79ea20851a491fc8ba4ecedf9acc61aeebb2e31f33f0e648fb9a079",
+              "answer_sha256": "6bc2a0c41c96a8697cc8e205cd110868ca55556b1fe1ef002e5f4e26c8f0ab28",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 104.85173966898583,
+              "input_tokens": 53432,
+              "output_tokens": 2778,
+              "reasoning_tokens": 2083
+            },
+            {
+              "response_sha256": "af15fea0d6e3df0c477565cd9919c7b403ccb7f8061e6f9b55d772b6d3f37dee",
+              "answer_sha256": "e1c3678f001654567a759323977f77f164277bc2081e369948404cab9cc088e1",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 128.1929441919783,
+              "input_tokens": 59029,
+              "output_tokens": 3137,
+              "reasoning_tokens": 2379
+            },
+            {
+              "response_sha256": "f3508ee00278c10bc9fcb8defb99726a2a919fd27f37561084aa2e0a3d37a757",
+              "answer_sha256": "52bd0244ea66ce84f59b8b65535a962fd30ee7492c275f81f4a3e3d47f4d7d05",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "xhigh",
+              "seconds": 210.55942642397713,
+              "input_tokens": 66922,
+              "output_tokens": 5589,
+              "reasoning_tokens": 3624
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            true,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        },
+        "order_correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "copy_exact_match": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "english",
+      "runs": [
+        {
+          "id": "e3-deepseek-english-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "d0c2fa8c32b5ce817adf151f529953a11ed89df2d3e8466f605be2bd7faa05ab",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-deepseek-english-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": false,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": false,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "c25dd4ac5193fb4d390182c97a49adb56459668782ed2a781d33c793c7b49b73",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "751da567299f9d419aa5d1a4c34fa3b526a44a204c8923cc4a5b0b9cf9e93c62",
+              "answer_sha256": "bf3b8254ef82577ed41dfdb31aba295e40b95e19d0baf7572c37b0ae844fbd56",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 13.967231315909885,
+              "input_tokens": 1970,
+              "output_tokens": 1667,
+              "reasoning_tokens": 1593
+            },
+            {
+              "response_sha256": "d9bcdb2567099138e07e31ff7f95f8506eb0a5592954a3c6c4d1aeea0fc2c00b",
+              "answer_sha256": "41befee55d55f7c1cf70f579aa2adbf70cb3938571741c5646bd7dd5ee6147fa",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 12.740824255044572,
+              "input_tokens": 3563,
+              "output_tokens": 1623,
+              "reasoning_tokens": 1418
+            },
+            {
+              "response_sha256": "e5fd856bf11caeeeab9bae0d841debf1bd1a2011508a5f07ce7d7230172b811d",
+              "answer_sha256": "d6413e63c0c87f21cede067c16a1a076c8afbb11066ad73d1bd0cc84079e0bef",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 36.93730449897703,
+              "input_tokens": 8802,
+              "output_tokens": 4928,
+              "reasoning_tokens": 4460
+            },
+            {
+              "response_sha256": "75b1616ee8d86e32089c63d9fa3fbf39f97e747c469189f766789b43bce9e303",
+              "answer_sha256": "4f6cfe5ac0f8dc9b1ae2a9ba30ba4670c23ace4fe069f32d5bdf080dfa0121b0",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 71.75263414799701,
+              "input_tokens": 11773,
+              "output_tokens": 9205,
+              "reasoning_tokens": 8583
+            },
+            {
+              "response_sha256": "b7818c07abc755012179de158d7080bf601d03dd42cdc4eb778cc7f91e9f4157",
+              "answer_sha256": "450a967612787ad944c46e1bfac9ce1362398c0d0677c1882fcb27b75458ec8b",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 48.0898255049251,
+              "input_tokens": 15331,
+              "output_tokens": 6530,
+              "reasoning_tokens": 6067
+            },
+            {
+              "response_sha256": "f3df737bee5537ae70fb86df01fea82e7d988ce5fe46bf50d6da209dde96aed5",
+              "answer_sha256": "59dd64f6810198a37c5eb6d6aeb7fae493b28801553f1ea74575f8a270a75067",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 26.58662054897286,
+              "input_tokens": 20178,
+              "output_tokens": 3469,
+              "reasoning_tokens": 3015
+            },
+            {
+              "response_sha256": "29de5cebdc43e9db26bf7f402d3d4bbee80fe9748e21b90bec9753320b08ebcb",
+              "answer_sha256": "59eec2d5546c5746c9018980a7ca669c3e694ae95c0ec6f31668f6b1a6b31c33",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 57.714370668982156,
+              "input_tokens": 24252,
+              "output_tokens": 7893,
+              "reasoning_tokens": 7424
+            },
+            {
+              "response_sha256": "627f4c9342524b1cd96fe20cdf7185b9b995bebe1ff8ed9d271a761cc943b45a",
+              "answer_sha256": "0e45152ece975415f8088d99b8381d6fc2d033486a4d1b7d8c76479643d16436",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 107.82331077300478,
+              "input_tokens": 27261,
+              "output_tokens": 13337,
+              "reasoning_tokens": 12791
+            },
+            {
+              "response_sha256": "067d1ef62c4b0d778159a83d8b9f054cb6cbcb5fd8a392505325b05b29775a67",
+              "answer_sha256": "d2be07b7a7f04276e3131de38c06e0e06a133110a12ef73242e52875827ce0bc",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 82.4136240449734,
+              "input_tokens": 29399,
+              "output_tokens": 11401,
+              "reasoning_tokens": 10795
+            },
+            {
+              "response_sha256": "de5335d22f813329b35fb8723562ee0c9e218f90f3f5efc2309145915f8ee5db",
+              "answer_sha256": "5abeefa839267e0b98b8405ee165f9011b0872cb6d4bfce2be59be2bc32967b4",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 296.84680790500715,
+              "input_tokens": 30011,
+              "output_tokens": 40946,
+              "reasoning_tokens": 40648
+            },
+            {
+              "response_sha256": "bd905fcd44dcf2c73a42d667b124a8033b77c2fc5342b7eddce6845858f4cbb8",
+              "answer_sha256": "7ecfdf2dc984e37cc7445db5e8ce2fd23c5ed1d183edc7b95189e10e3ad47f5e",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 67.81554350501392,
+              "input_tokens": 32356,
+              "output_tokens": 9006,
+              "reasoning_tokens": 8714
+            },
+            {
+              "response_sha256": "72bfa296ceb19f111de6cdd137425bda0b160087661bb2ee19df674e3c116eeb",
+              "answer_sha256": "a457cb32cb01a044eb3c6741f58973fe1ee80d3cc79ec16b404bccae699a438c",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 120.83614146104082,
+              "input_tokens": 35480,
+              "output_tokens": 16791,
+              "reasoning_tokens": 16302
+            },
+            {
+              "response_sha256": "6d5720c667901894c5f3b10294c68c4c65bd872b3e76d3077e14dc436ee525e6",
+              "answer_sha256": "5f6ec155208983de87a02c20730db9e9d0d8cda50c965be1310a8d18c688c315",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 59.17032776493579,
+              "input_tokens": 38700,
+              "output_tokens": 7910,
+              "reasoning_tokens": 7314
+            },
+            {
+              "response_sha256": "4b697361bab6330e8eac440e3c7cea7e650a9fecedd0d309cfc2b728773c7667",
+              "answer_sha256": "cdd5f4173ae9b1881d52f193b7837590c419db40df3cd6abd2ccd7b5efaad1cb",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 163.12679078697693,
+              "input_tokens": 44816,
+              "output_tokens": 21315,
+              "reasoning_tokens": 21102
+            },
+            {
+              "response_sha256": "b3e85bab34fd5ea920b18e9be8f0f506a7d4ef35e46f7b3eb1886390ceff795a",
+              "answer_sha256": "3e4fb8d6eca541fb3a2360a9b713fbf1ff2f1b67085bc5d9994afb59637f766d",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 90.60406914795749,
+              "input_tokens": 48561,
+              "output_tokens": 11869,
+              "reasoning_tokens": 11443
+            },
+            {
+              "response_sha256": "ace95d18a79edae8c7f9615840549527e51334353e13b0e950294b663fd83362",
+              "answer_sha256": "8dd9e98dfc4cb141c7d09d306c291a41bc447f180c67a872c313b09baa3255c3",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 56.15171897597611,
+              "input_tokens": 51165,
+              "output_tokens": 7385,
+              "reasoning_tokens": 6814
+            },
+            {
+              "response_sha256": "5adbd5be5007ff08e4e004402d5225bf11fc2f5bdffa9e9d9db6fd0197af8aa2",
+              "answer_sha256": "4e12d8fde7bc56b03e02a3bd8c18e4e042930994dc27d483bd0999e53aad804b",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 95.99885055900086,
+              "input_tokens": 51845,
+              "output_tokens": 13072,
+              "reasoning_tokens": 12257
+            },
+            {
+              "response_sha256": "fb73d68ffde41bd0d1d90ee51a636daa5683fe9d3c9036d65e6c0ba22c8f69a5",
+              "answer_sha256": "c25dd4ac5193fb4d390182c97a49adb56459668782ed2a781d33c793c7b49b73",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 192.31893847091123,
+              "input_tokens": 52773,
+              "output_tokens": 25453,
+              "reasoning_tokens": 23766
+            }
+          ]
+        },
+        {
+          "id": "e3-deepseek-english-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": false,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": false,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "7c220234b3db5c4d89eb74155a9a80d36decc93d662592de7840ea141ea07c14",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer.",
+            "Analytic logit-moment estimates use weight norms and parameter moments; no sampled input, LayerNorm execution or attention softmax."
+          ],
+          "calls": [
+            {
+              "response_sha256": "00e72ce777fc17303306542d6b9cc46553c90dc72879e8f7b079e7924695ae7b",
+              "answer_sha256": "d77dcc7eead498bc55ae35791e9d2b21e3650b6f0a1aac5a5d5fd973c12dbefd",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 20.185429534991272,
+              "input_tokens": 1970,
+              "output_tokens": 2753,
+              "reasoning_tokens": 1984
+            },
+            {
+              "response_sha256": "3fb9d3aa1ab1b12321e034fd7ed0178eca51872088bb67c0dca1e21d47b054a9",
+              "answer_sha256": "357a9cd2bde7d311aa40dd13245fddf7fab639636e40d4edba9c338ae34aefcf",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 24.46441762102768,
+              "input_tokens": 5080,
+              "output_tokens": 3487,
+              "reasoning_tokens": 2492
+            },
+            {
+              "response_sha256": "8d07df7d5b355d5c29e4f08b031f2287ff9cc95682ce5c5ecbc983e1ddb3d6ab",
+              "answer_sha256": "dca46a411156e27ae08cce7fce5380a6dcc0bfd097373e39d39c289bd9db25db",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 48.23271339596249,
+              "input_tokens": 11685,
+              "output_tokens": 6947,
+              "reasoning_tokens": 5870
+            },
+            {
+              "response_sha256": "fb23399c1b104ab2884bb13972515c1bcf12afc47d66b4006038daa1b749cf1e",
+              "answer_sha256": "4dfba303ca76da6aa06179d13e03dc6500eca449d8b5c32e894341c2aaf08c15",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 52.38324305298738,
+              "input_tokens": 23253,
+              "output_tokens": 7091,
+              "reasoning_tokens": 5951
+            },
+            {
+              "response_sha256": "83828cddc83b70b51931a2dbbfa28af04ec6d7c054d2c458272abdaab71303c9",
+              "answer_sha256": "a9d99a7ecac8a7b48ff70ab7deefc611fde37c14bb09aff340bbeaad67f49ae3",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 55.72853528498672,
+              "input_tokens": 30555,
+              "output_tokens": 7717,
+              "reasoning_tokens": 6737
+            },
+            {
+              "response_sha256": "6065a1760ab8446ad5509ad77957fbc9ddb85d62aaa6b114b29496e8089b7c59",
+              "answer_sha256": "d370dd1db162b0a0a887fbfea397be5832c47faf57a7d1cebd644de3294ab9df",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 123.07519361795858,
+              "input_tokens": 33862,
+              "output_tokens": 16780,
+              "reasoning_tokens": 15556
+            },
+            {
+              "response_sha256": "8057786f1f334955af5014ccade0d5311bb2d305db5ecd06a55a0f363cf15e57",
+              "answer_sha256": "82956fec7db91866e334f39af80637dfd096778da94ab3abef27e1222eea400c",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 130.24485813104548,
+              "input_tokens": 37036,
+              "output_tokens": 18334,
+              "reasoning_tokens": 17720
+            },
+            {
+              "response_sha256": "71a7f378c5b79766cf03e2d5499c81e211cc85c95310d3232788e9703769bed9",
+              "answer_sha256": "d13fb61ebf6875d10ff2f436e85a9e368d9fd3a063fa2e0d7dca97c6f0a8a12e",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 102.70153453201056,
+              "input_tokens": 38637,
+              "output_tokens": 13773,
+              "reasoning_tokens": 13024
+            },
+            {
+              "response_sha256": "8e9678a3f1db0a60da64c211b8361b801d8557bf8963082351ef406e6f90fdb2",
+              "answer_sha256": "94b393684af3dc02dab7e93d7192f7135057e8fa9dd9e10e647338ef2403b22f",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 63.068504384951666,
+              "input_tokens": 41101,
+              "output_tokens": 8803,
+              "reasoning_tokens": 8246
+            },
+            {
+              "response_sha256": "4eb15f53de76a74fe9777fe47f6efe2ab964f8bedcc15b3ed5e45167b7831d9a",
+              "answer_sha256": "7c220234b3db5c4d89eb74155a9a80d36decc93d662592de7840ea141ea07c14",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 290.7497214790201,
+              "input_tokens": 43704,
+              "output_tokens": 40739,
+              "reasoning_tokens": 39060
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        },
+        "order_correct": {
+          "values": [
+            true,
+            false,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        },
+        "copy_exact_match": {
+          "values": [
+            false,
+            false,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "python",
+      "runs": [
+        {
+          "id": "e3-deepseek-python-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "36bc697875491254ad5066073eb53cd3e2f956aa0443912147ede30b16ae8156",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-deepseek-python-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "2f956722f014cc1862655f030a74a298b1c0547cc2a115f6d66b1dbddf4e7c7a",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "059a3687fd5dc8597b3fe88d94bab419aa600815a8cd59e1e6f1da386b889b1d",
+              "answer_sha256": "c4ae08d2a08b6aa694ee5191c3964469ec20363c69db7e68b677aeaa24b730a9",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 8.292822843999602,
+              "input_tokens": 1970,
+              "output_tokens": 1036,
+              "reasoning_tokens": 780
+            },
+            {
+              "response_sha256": "76ed56b51688589dd755dff8da73cec3f8fc6a48e49ffc01e108150aef0f2a63",
+              "answer_sha256": "2ed817777b32ee881f475a5f0039be9c1c612022d153e653c9c2356e6a2ca9e3",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 41.28832194395363,
+              "input_tokens": 5379,
+              "output_tokens": 5639,
+              "reasoning_tokens": 5137
+            },
+            {
+              "response_sha256": "ac36b3014311d704ee7d297ce77142f04ec415284e323428909ad38fd8b3f3ea",
+              "answer_sha256": "9a388d61208c3863a20ed45a29e4bda93e97ba897087c1987a9dc3752462680e",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 51.629164065932855,
+              "input_tokens": 8964,
+              "output_tokens": 6841,
+              "reasoning_tokens": 6131
+            },
+            {
+              "response_sha256": "47ab67849838c8313688c957827a8330c774340b414c7e37de1c06d1eec50902",
+              "answer_sha256": "3f1147a3aacdde335618ac25f18575ff676197631c04fef094befd5f1be13dbe",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 56.511582483071834,
+              "input_tokens": 16363,
+              "output_tokens": 7555,
+              "reasoning_tokens": 7022
+            },
+            {
+              "response_sha256": "4f8e00cf5133b9cf9e15e61434a3005152ccec893be94c2323e6cf5a689047da",
+              "answer_sha256": "8fc707c8b7965e45453e12a5cecbd1388d43789b54d4f690aad391d72e2d9e11",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 73.15505286701955,
+              "input_tokens": 19777,
+              "output_tokens": 9539,
+              "reasoning_tokens": 8858
+            },
+            {
+              "response_sha256": "ad67f256fc63240cc7089430c2ad4f3ed33e07bc61422168c7896a8f39c8d5de",
+              "answer_sha256": "5af317f66626623a09938c85a92df091cc1180a9f272bccff57922aa66b7aabe",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 36.419060891959816,
+              "input_tokens": 22690,
+              "output_tokens": 4735,
+              "reasoning_tokens": 4276
+            },
+            {
+              "response_sha256": "f512b6ac90a1a92f6baf4201efba12de07b028321c2707cb3506c7d8c2a534e0",
+              "answer_sha256": "ac0e4f68345b650eb6b5e8bf314eb126d023aa7ff97c73fb45ca7e8d7a4f67b6",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 112.91771427798085,
+              "input_tokens": 25227,
+              "output_tokens": 15628,
+              "reasoning_tokens": 15218
+            },
+            {
+              "response_sha256": "d318fa416fff468ea8b7ca4eedf7308ca5229ec4a83383456c3446008aef5076",
+              "answer_sha256": "ec645f8a2832d0cc4fd1feeac577990ff4aa703a61427634aad40be67ac01340",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 62.503637767978944,
+              "input_tokens": 26698,
+              "output_tokens": 8330,
+              "reasoning_tokens": 8059
+            },
+            {
+              "response_sha256": "414187322d1e86fadba2721705ebc7bbd543651c8235e1ec33f5a589ff02ec2f",
+              "answer_sha256": "b6fe97b48a1a9b2fb5dfdc3609a565a9308f952f8785a192fcba8a919431b340",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 2.3061737150419503,
+              "input_tokens": 28854,
+              "output_tokens": 298,
+              "reasoning_tokens": 0
+            },
+            {
+              "response_sha256": "78f13efd632001f1c514a308c40408239882803e9d995271bef28d28523af48d",
+              "answer_sha256": "ade8ca7a0a7485ec9a325e80340e22ce1a5358b5cb0b1dbd9e95ffed0271b31b",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 79.8687409380218,
+              "input_tokens": 30304,
+              "output_tokens": 10633,
+              "reasoning_tokens": 9848
+            },
+            {
+              "response_sha256": "ef69326633a6e58cecdeefa8604370e3b9e7d6c3a9ffd35925c0e4f481c533c1",
+              "answer_sha256": "3ce5b8713c59f97cdb899b0c1a0045302e0573e1814bbce48fa12a3d62cb0f37",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 71.03302194504067,
+              "input_tokens": 35204,
+              "output_tokens": 9632,
+              "reasoning_tokens": 9294
+            },
+            {
+              "response_sha256": "6ae87c2db78d4b4d050010e82cb43cb836a1250bbedcb8862ab70a7d2acd1c5f",
+              "answer_sha256": "badf95064a285689c8eaa479498fea973ad042aacf3443b5bdb83746ead7e5c4",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 50.19064110098407,
+              "input_tokens": 37127,
+              "output_tokens": 6693,
+              "reasoning_tokens": 6125
+            },
+            {
+              "response_sha256": "f96097aa46faecb453fbbb927ca404612548a0f0dfe525d258c297a4896a3c72",
+              "answer_sha256": "1d3e942d86e2d0c899b1604b1a100a1f5cf0a9eb0422a0abea1482ba2e5ff589",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 42.551034306990914,
+              "input_tokens": 37757,
+              "output_tokens": 6216,
+              "reasoning_tokens": 5586
+            },
+            {
+              "response_sha256": "05b9105aba4d8d3fe6d64be11c25d2f471c665054593bfcd80fd07010125fdb8",
+              "answer_sha256": "4fa95ac94b829076e92bbbc95ed5d30ec815732961754f6302a8d9432fcc19cb",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 169.12536126899067,
+              "input_tokens": 41337,
+              "output_tokens": 23413,
+              "reasoning_tokens": 21930
+            },
+            {
+              "response_sha256": "a1a944f45bc41c0ce82a1cea7684bde2c3e8fa40d7796efda26c67f6cfc11aba",
+              "answer_sha256": "ecbba6b3fa4ccf6098e2e61b8b2d0fd43da2a63e95d7fc8e7b76fd6d8b58427c",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 90.59133992204443,
+              "input_tokens": 48007,
+              "output_tokens": 12580,
+              "reasoning_tokens": 11564
+            },
+            {
+              "response_sha256": "cfbdedba3a90263036a50ce56616a2bd057f7d0cc7211dab55fcdf88e153dc46",
+              "answer_sha256": "2f956722f014cc1862655f030a74a298b1c0547cc2a115f6d66b1dbddf4e7c7a",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 122.46014651900623,
+              "input_tokens": 50298,
+              "output_tokens": 17931,
+              "reasoning_tokens": 16103
+            }
+          ]
+        },
+        {
+          "id": "e3-deepseek-python-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": true
+          },
+          "answer_sha256": "96a9d8d6b131916e74baea4d6eb012a32152437855ca1916606487398edc15ee",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "4aae77bc7d2ef2422aff16a717468f7263b93e5064782ef1890b51f4eef2f896",
+              "answer_sha256": "23d6e61e14449a98f0e2314a5173f218a0c3e05a97032c7648f4bfbac7da77ed",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 22.744712718995288,
+              "input_tokens": 1970,
+              "output_tokens": 3059,
+              "reasoning_tokens": 2476
+            },
+            {
+              "response_sha256": "5a4d6d4204efaaf134818a236f12b2f81911b8577fde36ad4f613d7bec4ae320",
+              "answer_sha256": "d8bd8526ffa8ae165301a968e2f1f52c5a9f96c4d1a9da7ab05722d6452dcf47",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 40.29643720702734,
+              "input_tokens": 8592,
+              "output_tokens": 5642,
+              "reasoning_tokens": 4737
+            },
+            {
+              "response_sha256": "11ea2fa659c268e1d6ccaba1f22f2f412d68683fe00aaa72334cedd6a65cf52f",
+              "answer_sha256": "0d28b1eff914197baddc5d09e4f73d4bf16ab41ab338b66499342ae04f52364a",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 30.988529972964898,
+              "input_tokens": 15174,
+              "output_tokens": 4170,
+              "reasoning_tokens": 3323
+            },
+            {
+              "response_sha256": "382a60618bc4f14d094a7a4d97a7bd1878629e78b0f3e25123e3f1012d38bf3f",
+              "answer_sha256": "780f16272296d290797170ee804e2a65f175396c9b3db3c180eed4bb6cec6730",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 78.04223957599606,
+              "input_tokens": 18536,
+              "output_tokens": 10862,
+              "reasoning_tokens": 9806
+            },
+            {
+              "response_sha256": "a47bd9dfa92bb3752d768e271a871af3b454a9f25202da9b840f9e1f22470034",
+              "answer_sha256": "79d238147031ab545a62e694ad6ca449cb5fa56f498689721a2ce8eadba5967f",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 172.2802829319844,
+              "input_tokens": 22458,
+              "output_tokens": 24709,
+              "reasoning_tokens": 23877
+            },
+            {
+              "response_sha256": "6e4e50a73d1bbd7223538c802a626e0858d98936e5d01e084cd0d355f5a6fc84",
+              "answer_sha256": "2c54529b92db3dbebea98557468808ba1a5eb20961f713ffa82d95f2b324da43",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 114.85895904002246,
+              "input_tokens": 23948,
+              "output_tokens": 16591,
+              "reasoning_tokens": 15733
+            },
+            {
+              "response_sha256": "6498527d24674271479a974613908c6293cd2a50c544cedfb028d7b1cb7c41a6",
+              "answer_sha256": "96a9d8d6b131916e74baea4d6eb012a32152437855ca1916606487398edc15ee",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 188.45950926304795,
+              "input_tokens": 28443,
+              "output_tokens": 27163,
+              "reasoning_tokens": 25546
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            false,
+            false
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        },
+        "order_correct": {
+          "values": [
+            true,
+            true,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "copy_exact_match": {
+          "values": [
+            true,
+            false,
+            true
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.6666666666666666,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "romaji",
+      "runs": [
+        {
+          "id": "e3-deepseek-romaji-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "3a873ddb2557349d8398de93e05bac2454a4d7a8dbaf77111590d686e70cc28a",
+          "protocol_audit": "passed",
+          "notes": []
+        },
+        {
+          "id": "e3-deepseek-romaji-r1",
+          "repeat": 1,
+          "outcome": "empty_final_output",
+          "metrics": {
+            "correct": null,
+            "order_correct": null,
+            "copy_exact_match": null
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": false,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer.",
+            "Provider finish_reason=stop, empty content, 4629 completion tokens all reasoning; no final answer. Retained as empty-final-output failure, not an incorrect prediction or a zero score. No replacement generation."
+          ],
+          "calls": [
+            {
+              "response_sha256": "619433de85c7676959e62c0a5987a3cfa98c4d9bd2b8fcbb941eb1690c913de2",
+              "answer_sha256": "523e66fa9024ba8621c02e4f6a032736022b2aa36f87c5cebf0d5a3eecf60846",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 4.8817483220482245,
+              "input_tokens": 1970,
+              "output_tokens": 583,
+              "reasoning_tokens": 497
+            },
+            {
+              "response_sha256": "2be29dc24da018207a0d9a094239b75955ae54896954a0b727aa664857b9f1e8",
+              "answer_sha256": "4a6700724d01d7f55ac48e53d859ccf6330de0f8c75e90127111bdfa127c088e",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 53.950020508957095,
+              "input_tokens": 4204,
+              "output_tokens": 8697,
+              "reasoning_tokens": 3649
+            },
+            {
+              "response_sha256": "304cad931b6795a129bf9c6130639fe962949d5dbc2ad8777b73765fb9451ee4",
+              "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 33.87599543505348,
+              "input_tokens": 12142,
+              "output_tokens": 4629,
+              "reasoning_tokens": 4629
+            }
+          ]
+        },
+        {
+          "id": "e3-deepseek-romaji-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "raw_metrics": {
+            "correct": false,
+            "order_correct": true,
+            "copy_exact_match": false
+          },
+          "answer_sha256": "38e3ea83710cba64ccc0c897a0a8c49639256bbe8653add3654404cecd7fd597",
+          "protocol_audit": "passed",
+          "notes": [
+            "Reviewed every submitted Python block. Weight-only norms, QK/OV products, SVD/eigenspectra, subspace alignment, static gain/centering matrices and fitting weight-derived features; no network/layer evaluation on inputs, gradient training, or external lookup. Final corpus/order/copy labels checked against the answer."
+          ],
+          "calls": [
+            {
+              "response_sha256": "415ffb3cb0a9ffbd056e37fd4917e43cd737a3f4929356b05f20222c43cea3ca",
+              "answer_sha256": "ee97b00a6e021c7b48df2c8f9529f05505bb0309c809e717b0e8de5be34ebd45",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 20.273627556976862,
+              "input_tokens": 1970,
+              "output_tokens": 3127,
+              "reasoning_tokens": 1932
+            },
+            {
+              "response_sha256": "0ede351ea9264c3e9a5678763f2f9b020a2796d6423f84e760fc29bf1b717349",
+              "answer_sha256": "b843fb42edc435cf9f1bbbf6ba44783a5bb849dd918fc8c9283c5bae11a9f008",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 18.007647464983165,
+              "input_tokens": 4647,
+              "output_tokens": 2745,
+              "reasoning_tokens": 1713
+            },
+            {
+              "response_sha256": "b3213bc7857c2466f29633448a71a21cebb6281d909c5c65082fb884b3ca38a3",
+              "answer_sha256": "34c5ff5b38f475727ecaa5add744de3c9f3eb37905a2eb8a9c826fa7e84cd338",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 41.21663320600055,
+              "input_tokens": 9340,
+              "output_tokens": 6068,
+              "reasoning_tokens": 5113
+            },
+            {
+              "response_sha256": "db2ad5c165af5abae20cabbfc2ef191f3bda1fcc64a1661b321efcdefce3da75",
+              "answer_sha256": "b79e1cb14cffa9f49db08c6a8880dd05497034adffa75ddc5edf103ca5b8ed23",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 29.077962124021724,
+              "input_tokens": 13161,
+              "output_tokens": 4176,
+              "reasoning_tokens": 3276
+            },
+            {
+              "response_sha256": "9c2087365801bb2c3a5d972f619ebe4556c8f7fa4dfc029a069295235fc75e3b",
+              "answer_sha256": "d7d07e2b83e4995a1c7466b2e1499772b9b1e71efbe637b3b207f962822d70ea",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 53.81822686397936,
+              "input_tokens": 16070,
+              "output_tokens": 7290,
+              "reasoning_tokens": 6317
+            },
+            {
+              "response_sha256": "3631bb388ab4fe568e076bc1eb51d14cc36dd4f7c73f87dce71a1ed4e887907e",
+              "answer_sha256": "1080659e52fe8954869dcd2e3a87410ac3ceb6c1a419b37a6c1795868debb370",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 72.16230161604472,
+              "input_tokens": 18695,
+              "output_tokens": 10225,
+              "reasoning_tokens": 9421
+            },
+            {
+              "response_sha256": "c0a8d897ef43213e7f43c2ae323567515b0b63948b52f2e308434a1554ee4b2e",
+              "answer_sha256": "b02c028b0ebd7825631f4a99ff184d287072440443ee6c91fb925d5e1dc9f3c6",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 104.87907489098143,
+              "input_tokens": 21599,
+              "output_tokens": 14581,
+              "reasoning_tokens": 13204
+            },
+            {
+              "response_sha256": "497cf0dabedda3050e40e392827d18c7b5e6478671c5e220188b3835413efd14",
+              "answer_sha256": "66edf22f01ead1dce9247f503a7ecc04304abddeef484b1ae948b2487fa8905c",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 81.55999413901009,
+              "input_tokens": 23027,
+              "output_tokens": 11481,
+              "reasoning_tokens": 10011
+            },
+            {
+              "response_sha256": "e21b5efb52398d6f50376076a8e2ee098c0d633c2e9c6ea9961c748f72021355",
+              "answer_sha256": "0070f347bfc358799171dbb3437c35167963d7fce78c1f42acad7f8eb65b78b3",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 172.17995225905906,
+              "input_tokens": 29016,
+              "output_tokens": 23422,
+              "reasoning_tokens": 22272
+            },
+            {
+              "response_sha256": "50f10593cf4e045807ed4338b38cd5fcfe1ce96a15b33b9520747c2cc8115716",
+              "answer_sha256": "6926436ed53735f2e91c96160f0835a31e5be23ea48ce72fe50f29a282e33960",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 185.81770750891883,
+              "input_tokens": 31417,
+              "output_tokens": 25948,
+              "reasoning_tokens": 24438
+            },
+            {
+              "response_sha256": "deced45a6c610e3af9d0d0fa9ecdef0cbd764231b0293a6afeb00866ec5cd2fa",
+              "answer_sha256": "3d255ce8f8011d068f61f715b50c6fe692ec601010108eee44fe28fb6e01f712",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 66.8783414120553,
+              "input_tokens": 33159,
+              "output_tokens": 10734,
+              "reasoning_tokens": 9540
+            },
+            {
+              "response_sha256": "d1ab13eb089ad355b0bcd1d174490abd44b0f56f7cf3b408639214b4f844f22f",
+              "answer_sha256": "362a9048e8934ef3d6b8fce6e6e064b395f2b7f47b26598df13ed138ab60ad38",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 160.30580875696614,
+              "input_tokens": 36551,
+              "output_tokens": 22046,
+              "reasoning_tokens": 20771
+            },
+            {
+              "response_sha256": "1795cede991b53a218b11b32d076efb53335c245aa469fddd9dfb46a099bc2dc",
+              "answer_sha256": "e9bba1f7a9b6958e153d72ffd82096096e855e745c4b2fa44f55d7a77ef160ff",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 46.95609929098282,
+              "input_tokens": 38746,
+              "output_tokens": 6736,
+              "reasoning_tokens": 5430
+            },
+            {
+              "response_sha256": "38512e43b95a9610694a29f457b6e0857658682a898f5cf7309d25f1cb81788d",
+              "answer_sha256": "38e3ea83710cba64ccc0c897a0a8c49639256bbe8653add3654404cecd7fd597",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 227.76847028604243,
+              "input_tokens": 41415,
+              "output_tokens": 33147,
+              "reasoning_tokens": 31456
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "correct": {
+          "values": [
+            false,
+            null,
+            false
+          ],
+          "attempts": 3,
+          "n": 2,
+          "failures": 1,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        },
+        "order_correct": {
+          "values": [
+            true,
+            null,
+            true
+          ],
+          "attempts": 3,
+          "n": 2,
+          "failures": 1,
+          "mean": 1.0,
+          "sample_variance": 0.0
+        },
+        "copy_exact_match": {
+          "values": [
+            false,
+            null,
+            false
+          ],
+          "attempts": 3,
+          "n": 2,
+          "failures": 1,
+          "mean": 0.0,
+          "sample_variance": 0.0
+        }
+      }
+    },
+    {
+      "experiment": 4,
+      "model": "astra",
+      "case": "oneshot_repair",
+      "runs": [
+        {
+          "id": "e4-astra-oneshot_repair-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 0.0
+          },
+          "frozen_sha256": "0b91ce519d4c2cd94a60be0a271af9dc9cb17ee7ac5f1a2e4ab3e6cd89ab8d76",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 0,
+          "invalid": 0,
+          "protocol_audit": "passed"
+        },
+        {
+          "id": "e4-astra-oneshot_repair-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 1.0
+          },
+          "frozen_sha256": "1b225dd585d513d910c4206315eb7797616e0cce54ee54d5acc81fe3e696bd96",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 1024,
+          "invalid": 0,
+          "protocol_audit": "passed",
+          "calls": [
+            {
+              "response_sha256": "f9921cc8b316de57029241f914df59f6f082572cf240d6e7d43a951360307b6a",
+              "answer_sha256": "bffbe86e5d09e3ae30436507653b60a1f7ee30b79b3ab16118d587c9fd371157",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 314.9810855019605,
+              "input_tokens": 351723,
+              "output_tokens": 6830,
+              "reasoning_tokens": 5662
+            }
+          ]
+        },
+        {
+          "id": "e4-astra-oneshot_repair-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 1.0
+          },
+          "frozen_sha256": "07f5ac0e35ecabb3cc959a9403c0a99d420056eaf50d8199cb804f0c0626001f",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 1024,
+          "invalid": 0,
+          "protocol_audit": "passed",
+          "calls": [
+            {
+              "response_sha256": "ed2bdba05f6ecfdd5af4793bed9fd5494fb33013da311d8ba973efd65916891b",
+              "answer_sha256": "fc9678c18046f0758de22ee654b4e1f136f56dc47681312afdcec5945f5ed383",
+              "model": "gpt-6-astra",
+              "transport": "coding_plan_responses_bridge",
+              "effort": "high",
+              "seconds": 313.25878198596183,
+              "input_tokens": 351723,
+              "output_tokens": 6919,
+              "reasoning_tokens": 5535
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "success_rate": {
+          "values": [
+            0.0,
+            1.0,
+            1.0
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.6666666666666666,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "experiment": 4,
+      "model": "deepseek",
+      "case": "oneshot_repair",
+      "runs": [
+        {
+          "id": "e4-deepseek-oneshot_repair-r0",
+          "repeat": 0,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 1.0
+          },
+          "frozen_sha256": "a2bda120dfc2c197ddf369281ef6caf7fe645c6d0cfea65f22625ba7b2a63026",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 1024,
+          "invalid": 0,
+          "protocol_audit": "passed"
+        },
+        {
+          "id": "e4-deepseek-oneshot_repair-r1",
+          "repeat": 1,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 0.0
+          },
+          "frozen_sha256": "a2e932af836209d1e5234d2ecd64165cde48fd4d18dd36f45637a492125ed0b8",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 0,
+          "invalid": 0,
+          "protocol_audit": "passed",
+          "calls": [
+            {
+              "response_sha256": "a2895bd4541bb026423724edf4d0ac8726b140447449b0032c0a6cd3a3a214c4",
+              "answer_sha256": "5bb5dd0080afbac025010f655ed9451bc2e555ad5f44f2c2aefd716e019fb55a",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 251.59164926898666,
+              "input_tokens": 351760,
+              "output_tokens": 41158,
+              "reasoning_tokens": 40410
+            }
+          ]
+        },
+        {
+          "id": "e4-deepseek-oneshot_repair-r2",
+          "repeat": 2,
+          "outcome": "valid",
+          "metrics": {
+            "success_rate": 0.0
+          },
+          "frozen_sha256": "7963b595ce878f5dc62564b015884aad1f9b9eb5c9a2f3fff6e5e1de83e77cf6",
+          "episodes": 1024,
+          "seed": 1401,
+          "successes": 0,
+          "invalid": 0,
+          "protocol_audit": "passed",
+          "calls": [
+            {
+              "response_sha256": "09ed05f9f3941272033f78229eee79f00e4581895d426fce93528f4f4ff5548a",
+              "answer_sha256": "74a8452fd1838a9be34fa3684343604f8ce026ec19cf4eb2d158a2526f99f83e",
+              "model": "deepseek-flash",
+              "transport": "deepseek_api",
+              "effort": "max",
+              "seconds": 254.42280224198475,
+              "input_tokens": 351760,
+              "output_tokens": 38612,
+              "reasoning_tokens": 37629
+            }
+          ]
+        }
+      ],
+      "metrics": {
+        "success_rate": {
+          "values": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "attempts": 3,
+          "n": 3,
+          "failures": 0,
+          "mean": 0.3333333333333333,
+          "sample_variance": 0.3333333333333333
+        }
+      }
+    }
+  ],
+  "highbudget_game_runs": [
+    {
+      "id": "e5-deepseek-snake-w4-r2-highbudget-v1",
+      "source_attempt": "e5-deepseek-snake-w4-r2",
+      "game": "snake",
+      "width": 4,
+      "repeat": 2,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 1.724,
+      "episode_standard_error": 0.06662028416527702,
+      "episodes": 1000,
+      "frozen_sha256": "f0615698025ec6ec65a70cfed93dac04e211f3342ba60ce093e03dc254609e7b",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "bba20abb17bc84fc5a19a44c69947091e59b494b0a97500fd0dab3939afb610b",
+          "answer_sha256": "61438b205fba16881d3579deda2a6065f5346015b1e3570c799afbd59566eb91",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 874.3811205830425,
+          "input_tokens": 1815,
+          "output_tokens": 134178,
+          "reasoning_tokens": 132897
+        }
+      ]
+    },
+    {
+      "id": "e5-deepseek-snake-w4-r0-highbudget-v1",
+      "source_attempt": "e5-deepseek-snake-w4-r0",
+      "game": "snake",
+      "width": 4,
+      "repeat": 0,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 4.723,
+      "episode_standard_error": 0.10437032223848007,
+      "episodes": 1000,
+      "frozen_sha256": "992afc8ae0a1be70361a3ed3c6b0facc804cea684ca2739ce38414481f9e5144",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "0b6b5b4ed06c00d96a75b6c63d328ee650ace5ace409d09b87e97a79e6607c14",
+          "answer_sha256": "8bd2e551206b975bb92a95fa4ec739b5ba3cd92f744839cae0a126b573a27f5a",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 570.6489646190312,
+          "input_tokens": 1815,
+          "output_tokens": 81718,
+          "reasoning_tokens": 80075
+        }
+      ]
+    },
+    {
+      "id": "e5-deepseek-snake-w16-r2-highbudget-v1",
+      "source_attempt": "e5-deepseek-snake-w16-r2",
+      "game": "snake",
+      "width": 16,
+      "repeat": 2,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 4.336,
+      "episode_standard_error": 0.15439216606078476,
+      "episodes": 1000,
+      "frozen_sha256": "ae257edc7aa5b96502ad311a8c91969bfe1c92c1e7c89805c1fb89a6fa3fe69e",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "79115d47670d95cf190453cccdeeaf5e18b2722ae44e1770680491ccf2c9d1ce",
+          "answer_sha256": "5c28a564bac6d5c8a6216dff74520d9c85bf6c0cb2b34ec2caa8fe1ec63db622",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 740.2047981270589,
+          "input_tokens": 1815,
+          "output_tokens": 112635,
+          "reasoning_tokens": 110433
+        }
+      ]
+    },
+    {
+      "id": "e5-deepseek-snake-w16-r1-highbudget-v1",
+      "source_attempt": "e5-deepseek-snake-w16-r1",
+      "game": "snake",
+      "width": 16,
+      "repeat": 1,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 2.105,
+      "episode_standard_error": 0.07599836018461681,
+      "episodes": 1000,
+      "frozen_sha256": "86902814ab460ee59ebc97c19945e0891e95a2eec0615e2de7ae3a980a826398",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "866895c9415a1b677efd5d1cb75df954729a11c16b190f13a1c327190b7b1c7e",
+          "answer_sha256": "4f190f99be7220b5d845b42f237755b9d57812a85afe570e362cf6c7b47f550c",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 591.7459486019798,
+          "input_tokens": 1815,
+          "output_tokens": 94761,
+          "reasoning_tokens": 91725
+        }
+      ]
+    },
+    {
+      "id": "e5-deepseek-asterix-w8-r1-highbudget-v1",
+      "source_attempt": "e5-deepseek-asterix-w8-r1",
+      "game": "asterix",
+      "width": 8,
+      "repeat": 1,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 1.486,
+      "episode_standard_error": 0.0571057358333212,
+      "episodes": 1000,
+      "frozen_sha256": "9669f4296e5a2eb1318ee3eb1cbaaa26004989cf23bd8735a822a6decbe395e4",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "02fbfca833c8cfd2a4bdf94384427e3dae904d2ce8bd03dc0e12a1f5e6b60c76",
+          "answer_sha256": "56d41a507ae28352b59869e14cfcf60140520b28a3ca7b7212be5d7728c0cb9c",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 746.9399472390069,
+          "input_tokens": 2847,
+          "output_tokens": 110662,
+          "reasoning_tokens": 108596
+        }
+      ]
+    },
+    {
+      "id": "e5-deepseek-seaquest-w4-r1-highbudget-v1",
+      "source_attempt": "e5-deepseek-seaquest-w4-r1",
+      "game": "seaquest",
+      "width": 4,
+      "repeat": 1,
+      "model": "deepseek",
+      "max_output_tokens": 393216,
+      "mean": 0.487,
+      "episode_standard_error": 0.0272134446840449,
+      "episodes": 1000,
+      "frozen_sha256": "bbaa7275e4fefa06c5571727cf29253e8cec4142813fdba7bb66e24a5f8c2689",
+      "protocol_audit": "passed",
+      "calls": [
+        {
+          "response_sha256": "5d804d5ff499fa7bef64117cc7580abd9980a635a7d4662560b8eed246d961ef",
+          "answer_sha256": "9b8c996292bada48d4f3b287abcba52f8ac3af75ff224f6557e5e566e0e09900",
+          "model": "deepseek-flash",
+          "transport": "deepseek_api",
+          "effort": "max",
+          "seconds": 851.5202218899503,
+          "input_tokens": 4839,
+          "output_tokens": 126387,
+          "reasoning_tokens": 124776
+        }
+      ]
+    }
+  ],
+  "highbudget_game_groups": [
+    {
+      "game": "asterix",
+      "width": 8,
+      "values": [
+        1.486
+      ],
+      "attempts": 1,
+      "n": 1,
+      "failures": 0,
+      "mean": 1.486,
+      "sample_variance": null
+    },
+    {
+      "game": "seaquest",
+      "width": 4,
+      "values": [
+        0.487
+      ],
+      "attempts": 1,
+      "n": 1,
+      "failures": 0,
+      "mean": 0.487,
+      "sample_variance": null
+    },
+    {
+      "game": "snake",
+      "width": 4,
+      "values": [
+        1.724,
+        4.723
+      ],
+      "attempts": 2,
+      "n": 2,
+      "failures": 0,
+      "mean": 3.2235,
+      "sample_variance": 4.4970004999999995
+    },
+    {
+      "game": "snake",
+      "width": 16,
+      "values": [
+        4.336,
+        2.105
+      ],
+      "attempts": 2,
+      "n": 2,
+      "failures": 0,
+      "mean": 3.2205000000000004,
+      "sample_variance": 2.4886805000000005
+    }
+  ],
+  "supplementary_usage": {
+    "astra": {
+      "calls": 82,
+      "input_tokens": 4224327,
+      "output_tokens": 195729,
+      "reasoning_tokens": 124258,
+      "seconds": 7552.57189766923
+    },
+    "deepseek": {
+      "calls": 90,
+      "input_tokens": 3545965,
+      "output_tokens": 2566661,
+      "reasoning_tokens": 2483316,
+      "seconds": 16080.704490316682
+    }
+  },
+  "billed_cost": null,
+  "cost_note": "API usage recorded; no billing statement available. Coding-plan tokens are not converted to API prices.",
+  "highbudget_comparison": "Fresh independent generations for six previously failed conditions; kept separate from the original 128000-token arm.",
+  "math_status": "paused_incomplete"
+}
