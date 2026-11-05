@@ -1,0 +1,507 @@
+{
+  "schema": 1,
+  "provider_concurrency": {
+    "deepseek": 12,
+    "astra": 4
+  },
+  "jobs": [
+    {
+      "id": "e5-deepseek-snake-w4-r2-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "snake",
+      "kind": "network",
+      "width": 4,
+      "repeat": 2,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 2454,
+      "source_attempt": "e5-deepseek-snake-w4-r2",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e5-deepseek-snake-w4-r0-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "snake",
+      "kind": "network",
+      "width": 4,
+      "repeat": 0,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 2454,
+      "source_attempt": "e5-deepseek-snake-w4-r0",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e5-deepseek-snake-w16-r2-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "snake",
+      "kind": "network",
+      "width": 16,
+      "repeat": 2,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 9990,
+      "source_attempt": "e5-deepseek-snake-w16-r2",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e5-deepseek-snake-w16-r1-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "snake",
+      "kind": "network",
+      "width": 16,
+      "repeat": 1,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 9990,
+      "source_attempt": "e5-deepseek-snake-w16-r1",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e5-deepseek-asterix-w8-r1-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "asterix",
+      "kind": "network",
+      "width": 8,
+      "repeat": 1,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 4934,
+      "source_attempt": "e5-deepseek-asterix-w8-r1",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e5-deepseek-seaquest-w4-r1-highbudget-v1",
+      "experiment": 5,
+      "model": "deepseek",
+      "game": "seaquest",
+      "kind": "network",
+      "width": 4,
+      "repeat": 1,
+      "effort": "max",
+      "episodes": 1000,
+      "max_steps": 10000,
+      "sticky_probability": 0.1,
+      "parameters": 2454,
+      "source_attempt": "e5-deepseek-seaquest-w4-r1",
+      "arm": "high_output_budget",
+      "max_output_tokens": 393216
+    },
+    {
+      "id": "e1-astra-breakout-r1",
+      "experiment": 1,
+      "model": "astra",
+      "case": "breakout",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-breakout-r2",
+      "experiment": 1,
+      "model": "astra",
+      "case": "breakout",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-pong-r1",
+      "experiment": 1,
+      "model": "astra",
+      "case": "pong",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-pong-r2",
+      "experiment": 1,
+      "model": "astra",
+      "case": "pong",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-pacman-r1",
+      "experiment": 1,
+      "model": "astra",
+      "case": "pacman",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-pacman-r2",
+      "experiment": 1,
+      "model": "astra",
+      "case": "pacman",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-freeway-r1",
+      "experiment": 1,
+      "model": "astra",
+      "case": "freeway",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-astra-freeway-r2",
+      "experiment": 1,
+      "model": "astra",
+      "case": "freeway",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-circle-r1",
+      "experiment": 2,
+      "model": "astra",
+      "case": "circle",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-circle-r2",
+      "experiment": 2,
+      "model": "astra",
+      "case": "circle",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-square-r1",
+      "experiment": 2,
+      "model": "astra",
+      "case": "square",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-square-r2",
+      "experiment": 2,
+      "model": "astra",
+      "case": "square",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-triangle-r1",
+      "experiment": 2,
+      "model": "astra",
+      "case": "triangle",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-astra-triangle-r2",
+      "experiment": 2,
+      "model": "astra",
+      "case": "triangle",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-python-r1",
+      "experiment": 3,
+      "model": "astra",
+      "case": "python",
+      "repeat": 1,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-python-r2",
+      "experiment": 3,
+      "model": "astra",
+      "case": "python",
+      "repeat": 2,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-romaji-r1",
+      "experiment": 3,
+      "model": "astra",
+      "case": "romaji",
+      "repeat": 1,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-romaji-r2",
+      "experiment": 3,
+      "model": "astra",
+      "case": "romaji",
+      "repeat": 2,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-english-r1",
+      "experiment": 3,
+      "model": "astra",
+      "case": "english",
+      "repeat": 1,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-astra-english-r2",
+      "experiment": 3,
+      "model": "astra",
+      "case": "english",
+      "repeat": 2,
+      "effort": "xhigh",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e4-astra-oneshot_repair-r1",
+      "experiment": 4,
+      "model": "astra",
+      "case": "oneshot_repair",
+      "repeat": 1,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e4-astra-oneshot_repair-r2",
+      "experiment": 4,
+      "model": "astra",
+      "case": "oneshot_repair",
+      "repeat": 2,
+      "effort": "high",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-breakout-r1",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "breakout",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-breakout-r2",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "breakout",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-pong-r1",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pong",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-pong-r2",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pong",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-pacman-r1",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pacman",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-pacman-r2",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "pacman",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-freeway-r1",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "freeway",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e1-deepseek-freeway-r2",
+      "experiment": 1,
+      "model": "deepseek",
+      "case": "freeway",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-circle-r1",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "circle",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-circle-r2",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "circle",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-square-r1",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "square",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-square-r2",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "square",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-triangle-r1",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "triangle",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e2-deepseek-triangle-r2",
+      "experiment": 2,
+      "model": "deepseek",
+      "case": "triangle",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-python-r1",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "python",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-python-r2",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "python",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-romaji-r1",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "romaji",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-romaji-r2",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "romaji",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-english-r1",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "english",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e3-deepseek-english-r2",
+      "experiment": 3,
+      "model": "deepseek",
+      "case": "english",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e4-deepseek-oneshot_repair-r1",
+      "experiment": 4,
+      "model": "deepseek",
+      "case": "oneshot_repair",
+      "repeat": 1,
+      "effort": "max",
+      "arm": "additional_repeats"
+    },
+    {
+      "id": "e4-deepseek-oneshot_repair-r2",
+      "experiment": 4,
+      "model": "deepseek",
+      "case": "oneshot_repair",
+      "repeat": 2,
+      "effort": "max",
+      "arm": "additional_repeats"
+    }
+  ]
+}

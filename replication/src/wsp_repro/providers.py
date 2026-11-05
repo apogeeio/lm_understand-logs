@@ -45,12 +45,19 @@ def credential_status():
 
 
 def _post(url,payload,key):
-    # One request per provider across all study queues; serialize access to the model endpoint.
+    # File-lock slots coordinate independent processes without sharing contexts.
     folder=SECRET_FILE.parent/"locks";folder.mkdir(parents=True,exist_ok=True)
     tag="deepseek" if "api.deepseek.com" in url else "astra"
-    with (folder/(tag+".lock")).open("a") as lock:
-        fcntl.flock(lock,fcntl.LOCK_EX)
-        return _post_unlocked(url,payload,key)
+    slots=int(os.environ.get("WSP_"+tag.upper()+"_CONCURRENCY","1"))
+    if not 1 <= slots <= 64:raise ValueError("Provider concurrency must be 1..64")
+    while True:
+        for slot in range(slots):
+            name=tag+("" if slot==0 else "-"+str(slot))+".lock"
+            with (folder/name).open("a") as lock:
+                try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+                except BlockingIOError:continue
+                return _post_unlocked(url,payload,key)
+        time.sleep(.25)
 
 
 def _post_unlocked(url,payload,key):
@@ -58,7 +65,7 @@ def _post_unlocked(url,payload,key):
     req=urllib.request.Request(url,body,{"Authorization":"Bearer "+key,"Content-Type":"application/json"})
     for attempt in range(4):
         try:
-            with urllib.request.urlopen(req,timeout=1800) as response:return json.load(response)
+            with urllib.request.urlopen(req,timeout=7200 if payload.get("max_tokens",0)>128000 else 1800) as response:return json.load(response)
         except urllib.error.HTTPError as e:
             try:err=json.loads(e.read()).get("error",{});code=err.get("code",err.get("type","unknown"))
             except (ValueError,AttributeError):code="unknown"
@@ -98,7 +105,7 @@ def incomplete(response,payload,out_dir,model,transport,effort,reason,text):
     raise IncompleteModelOutput(reason)
 
 
-def call(model,effort,messages,out_dir,transport=None):
+def call(model,effort,messages,out_dir,transport=None,max_output_tokens=128000):
     out_dir=Path(out_dir);out_dir.mkdir(parents=True,exist_ok=True)
     keys=credentials();start=time.monotonic()
     if model=="astra":
@@ -135,7 +142,8 @@ def call(model,effort,messages,out_dir,transport=None):
         key=keys.get("DEEPSEEK_API_KEY")
         if not key:raise MissingCredential("DEEPSEEK_API_KEY is not configured")
         payload={"model":"deepseek-flash","messages":[{"role":"system","content":SYSTEM}]+messages,
-                 "thinking":{"type":"enabled"},"reasoning_effort":"max","max_tokens":128000}
+                 "thinking":{"type":"enabled"},"reasoning_effort":"max","max_tokens":max_output_tokens}
+        if not 1 <= max_output_tokens <= 393216:raise ValueError("DeepSeek output limit must be 1..393216")
         response=recorded_post("https://api.deepseek.com/chat/completions",payload,key,out_dir)
         choice=response["choices"][0]
         text=choice["message"].get("content") or ""

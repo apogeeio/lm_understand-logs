@@ -31,7 +31,7 @@ def generate(job):
         # An API answer saved before a crash is reused, never regenerated to improve its score.
         if (out/"call/answer.md").exists() and (out/"call/call.json").exists():
             text=(out/"call/answer.md").read_text();metadata=json.loads((out/"call/call.json").read_text())
-        else:text,metadata=call(job["model"],job["effort"],[{"role":"user","content":prompt}],out/"call")
+        else:text,metadata=call(job["model"],job["effort"],[{"role":"user","content":prompt}],out/"call",max_output_tokens=job.get("max_output_tokens",128000))
         if job["kind"]=="network":
             tensors,report=apply(text,width=job["width"])
             artifact=out/"network.npz";np.savez(artifact,**tensors)
